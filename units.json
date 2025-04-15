@@ -1,0 +1,68 @@
+{
+    "units": [
+        {
+            "unitCode": "CAB301",
+            "faculty": "Faculty of Science",
+            "school": "School of Computer Science",
+            "studyArea": "Science",
+            "creditPoints": 12,
+            "prerequisites": null,
+            "equivalents": [
+                "INB371"
+            ]
+        },
+        {
+            "unitCode": "CAB302",
+            "faculty": "Faculty of Science",
+            "school": "School of Computer Science",
+            "studyArea": "Science",
+            "creditPoints": 12,
+            "prerequisites": "INB270 or ITD121",
+            "equivalents": [
+                "INB370"
+            ]
+        },
+        {
+            "unitCode": "CAB401",
+            "faculty": "Faculty of Science",
+            "school": "School of Computer Science",
+            "studyArea": "Science",
+            "creditPoints": 12,
+            "prerequisites": "(IFN563 and IFN564) or (",
+            "equivalents": [
+                "INB375"
+            ]
+        },
+        {
+            "unitCode": "CAB403",
+            "faculty": "Faculty of Science",
+            "school": "School of Computer Science",
+            "studyArea": "Science",
+            "creditPoints": 12,
+            "prerequisites": null,
+            "equivalents": [
+                "INB365",
+                "ITB706",
+                "ITB745"
+            ]
+        },
+        {
+            "unitCode": "IFN711",
+            "faculty": "Faculty of Science",
+            "school": "School of Information Systems",
+            "studyArea": "Science",
+            "creditPoints": 24,
+            "prerequisites": "Completion of 96cp from (IN20 or IN27) or (Admission to IN23 and Completion of 48cp)",
+            "equivalents": null
+        },
+        {
+            "unitCode": "IFN712",
+            "faculty": "Faculty of Science",
+            "school": "School of Computer Science",
+            "studyArea": "Science",
+            "creditPoints": 24,
+            "prerequisites": "Completion of 96cp from (IN20 or IN27) or (Admission to IN23 and Completion of 48cp)",
+            "equivalents": null
+        }
+    ]
+}

@@ -1,0 +1,2694 @@
+<!DOCTYPE html><html lang="en" xmlns:og="https://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#0066b9">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    
+    <meta name="google-site-verification" content="A678Om3_KjlTrYIFf0OPTrnpoFT10Afit4LF4zNpnTQ">
+    <meta name="msapplication-config" content="none">
+    
+    <meta name="format-detection" content="telephone=no">
+    
+    
+
+    <title>QUT - Unit - CAB301 Algorithms and Complexity</title>
+    
+
+    
+    
+        
+     
+    
+     
+    
+    <meta name="DC.Rights" content="Copyright Queensland University of Technology 2025">
+    <meta name="DC.Rights" scheme="URI" content="https://www.qut.edu.au/additional/copyright">
+    <meta name="author" content="Queensland University of Technology (QUT)">
+     
+    
+    <meta name="DC.Relation.requires" scheme="DCSV" content="assetID=863751; mediaID=;">
+    
+    
+
+
+
+
+ <!-- Unit main (#863984) //-->
+ <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-5X3JVKL"></script><script>document.querySelector('title').text = "QUT - Unit - CAB301 Algorithms and Complexity";</script>
+ <meta name="DC.Title" content="CAB301 Algorithms and Complexity">
+ <meta name="DC.Title.alternative" content="Algorithms and Complexity">
+ <meta name="description" content="This unit teaches you the fundamental principles used to assess the efficiency of software algorithms, allowing you to distinguish solutions that can process large amounts of data or perform complex calculations effectively from those that run unacceptably slowly or not at all. In this unit you will examine a range of different algorithms, review the principles used to predict their efficiency and perform empirical measurements of specific algorithms to confirm the theoretical predictions.">
+ <meta name="DC.Subject" content="CAB301">
+ <meta name="DC.Creator.CorporateName" content="Faculty of Science" scheme="qut-orgunit">
+ <meta name="DC.Type" content="unit" scheme="qut-model">
+ <meta name="DC.Type.documentType" content="promotional" scheme="agls-document">
+ <meta name="DC.Date.valid" content="" scheme="ISO8601">
+ <meta name="DC.Date.created" content="" scheme="ISO8601">
+ <meta name="DC.Date.modified" content="" scheme="ISO8601">
+ <meta name="DC.Publisher" content="Queensland University of Technology">
+ <meta name="DC.Identifier" content="" scheme="URI">
+ <meta name="robots" content="ALL">
+    <!-- Twitter Card data -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@qut">
+<meta name="twitter:creator" content="@qut">
+
+<!-- Opengraph --> 
+<meta property="og:site_name" content="QUT"> 
+<meta property="fb:admins" content="1839358557">
+<meta property="og:type" content="article">
+<meta property="article:publisher" content="https://www.facebook.com/QUTBrisbane">
+<meta property="article:author" content="https://www.facebook.com/QUTBrisbane">
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Unit",
+    "description": "",
+    "publisher": {
+        "@type": "EducationalOrganization",
+        "name": "Queensland University of Technology",
+    },
+    "dateCreated": "2019-06-20",
+    "dateModified": "2023-09-22"
+}
+</script>
+
+
+<meta property="og:image" content="https://www.qut.edu.au/__data/assets/image/0007/909781/qut-logo-og-1200.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+    
+
+    
+    <link rel="stylesheet" href="https://use.typekit.net/hbv2spc.css">
+    
+
+    <link rel="stylesheet" type="text/css" href="https://www.qut.edu.au/__data/assets/css_file_folder/0018/707013/global-2017.min.css?0.5.201" media="all">
+    
+
+    
+    
+    
+    
+    
+
+
+
+
+
+
+<!-- cc - Helvetica Nueue linotype code no longer needed with new font globals_asset_contents_raw:837442 -->
+
+
+<script>window.GoogleAnalyticsObject = '__qutua';</script>
+
+
+
+
+
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5X3JVKL');</script>
+<!-- End Google Tag Manager -->
+
+
+
+
+<!-- #ceddl -->
+<script id="ceddl">
+window.digitalData = {
+    pageInstanceID: "863751-Live",
+    page: {
+        pageInfo: {
+            assetID: "863751",
+            pageID: "/study/unit",
+            pageName: "Unit",
+            destinationURL: document.location.toString(),
+            referringURL: document.referrer.toString(),
+            sysEnv: "Live",
+            // variant: "1",
+            version: "0.2.0",
+            breadCrumbs: ["QUT Corporate Site","Study"],
+            author: "Christopher Baldwin",
+            issueDate: "2019-06-25T10:35:01+10:00",
+            effectiveDate: "2023-09-22T12:36:31+10:00",
+            // expiryDate: "",
+            language: "en-AU",
+            geoRegion: "AU",
+            publisher: "Queensland University of Technology",
+            onsiteSeachTerm: "",
+            onsiteSearchResults: 0
+        },
+        category: {
+            primaryCategory: "STDY",
+            primaryCategoryName: "Study"
+        },
+        attributes: {
+			country: "AU",
+			// httpStatus: "",
+		    userAccess: "R"
+        },
+    },
+    product: [],
+    cart: {},
+    transaction: {},
+    event: [],
+    component: [],
+    user: [{
+        profile: [
+            // stay connected
+            {},
+            
+            // squiz cms
+            {
+                profileInfo: {
+                    profileID: "7",
+                    userName: "",
+                    email: "",
+                    type: "Squiz CMS",
+                    attributes: { authenticated: false }
+                }
+            }
+        ]
+    }],
+    privacy: {
+        accessCategories: [{
+            categoryName: 'Default',
+            domains: [
+                // [JS] QUT Squiz CMS   
+                'www.qut.edu.au',
+                'cms.qut.edu.au',
+                'cms-edit.qut.edu.au',
+                
+                // [JS] QUT External Apps
+                'external-apps.qut.edu.au',
+                
+                // [JS] QUT Corporate Website APIs
+                'corpsite-api.qut.edu.au',
+                
+                // [JS] Google Tag Manager
+                'www.googletagmanager.com'
+            ]
+        }, {
+            categoryName: 'Analytics',
+            domains: [
+                // [JS] QUT Angelfish
+                'analytics.qut.edu.au',
+                
+                // [JS] QUT Urchin
+                'logwebstats.qut.edu.au',
+                
+                // [JS] IBM Digital Analytics
+                'libs.coremetrics.com',
+                'data.coremetrics.com',
+                'tmscdn.coremetrics.com',
+                'testdata.coremetrics.com',
+                
+                // [JS] IBM TeaLeaf
+                'aucollector.tealeaf.ibmcloud.com',
+                'uscollector.tealeaf.ibmcloud.com',
+                
+                // [JS] Crazy Egg
+                'script.crazyegg.com',
+                'dnn506yrbagrg.cloudfront.net',
+                
+                // [JS] Hotjar
+                'static.hotjar.com',
+                
+                // [JS] Google Analytics
+                'www.google-analytics.com',
+                
+                // [CSS] MonoType Imaging Inc.
+                'fast.fonts.net'                 
+            ]
+        }, {
+            categoryName: 'Remarketing',
+            domains: [
+                // [JS] Facebook
+                'www.facebook.com',
+                'connect.facebook.net',
+                
+                // [JS] DoubleClick
+                'www.googleadservices.com',
+                'stats.g.doubleclick.net',
+                'googleads.g.doubleclick.net',
+                
+                // [JS] LinkedIn / Bizo
+                'px.ads.linkedin.com',
+                'sjs.bizographics.com',
+                
+                // [JS] Twitter
+                't.co',
+                'analytics.twitter.com',
+                'static.ads-twitter.com',
+                
+                // [JS] Bing
+                'bat.bing.com'
+            ]
+        }, {
+            categoryName: 'Direct Marketing',
+            domains: [
+                // [JS] IBM Watson Campaign Automation (Silverpop)
+                'www.sc.pages04.net',
+                'www.pages04.net',
+                
+                // [JS] Fone Dynamics
+                'web-call-analytics.com'
+            ]
+        }, {
+            categoryName: 'Live Chat',
+            domains: [
+                // [JS] Olark
+                'static.olark.com',
+                'api.olark.com'
+            ]
+        }, {
+            categoryName: 'Widgets',
+            domains: [
+                 // [JS] Google Maps
+                'maps.googleapis.com',
+                'fonts.googleapis.com',
+                
+                 // [JS] Stackla
+                'assetscdn.stackla.com',
+                'vjs.zencdn.net'
+            ]
+        }]
+    },
+    version: "1.0"
+};
+</script>
+
+
+<script>window.paceOptions = { target: '.pace-container', startOnPageLoad: false }</script>
+
+
+
+
+<script src="https://www.qut.edu.au/__data/assets/js_file/0015/1001724/polyfills.js" id="qut-polyfills"></script>
+
+
+
+    
+    <script src="https://www.qut.edu.au/__data/assets/js_file_folder/0008/634715/QUT-2017-Javascript-Folder.min.js?v=0.3.1412" id="qut-js-2017"></script><style type="text/css"></style>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://kit.fontawesome.com/3222f9e323.js" crossorigin="anonymous"></script>
+<!--<script src="https://kit.fontawesome.com/3222f9e323.js" crossorigin="anonymous"></script>-->
+    
+    
+    
+
+<!--
+  Running Squiz Matrix
+  Developed by Squiz - http://www.squiz.net
+  Squiz, Squiz Matrix, MySource, MySource Matrix and Squiz.net are registered Trademarks of Squiz Pty Ltd
+  Page generated: 10 April 2025 12:07:04
+-->
+
+
+<script type="text/javascript" src="https://professional-education.qut.edu.au/study/lightning/lightning.out.delegate.js?v=1744250815050"></script></head>
+
+ 
+
+
+
+
+<body class="unit-page   animated-page  pace-running pace-done">
+
+    
+    
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>&lt;iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5X3JVKL" height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
+
+
+
+
+
+
+
+    <!-- init animated-page -->
+    
+        <script>(function(body){body.className=body.className+" animated-page";})(document.getElementsByTagName('body')[0]);</script>
+    
+    
+
+
+    
+    <a href="#content" id="skip-link"><span>Skip to content</span></a>
+    
+    <!--noindex-->
+    
+        <!--endnoindex-->
+    
+    <div class="header__wrapper">
+        
+        
+        
+
+<!--  -->
+<!-- Lin: 3 -->
+
+<header role="banner" class="header ">
+
+
+    <div class="container">
+        <div class="row header__pusher">
+            
+            
+                <div class="col-xs-2 col-md-3 hidden-lg-up">
+                  <a class="header__logo__test" href="https://www.qut.edu.au">
+                    <span class="sr-only">QUT</span>
+                  </a>
+                </div>
+                <div class="col-lg-5 hidden-md-down">
+                  <a class="header__logo__test" href="https://www.qut.edu.au">
+                    <span class="sr-only">QUT - the university for the real world</span>
+                  </a>
+                </div>
+            
+            <div class="col-xs-10 col-md-9 col-lg-7">
+                <div class="header__links header__searchbox--closed">
+                    <ul class="header__links__linklist">
+                        <li><a class="header__links__login" href="https://qutvirtual4.qut.edu.au/">Login</a></li>
+                        
+                        <li><a href="https://www.qut.edu.au/about/contact" class="header__links__contact"><span class="d-none d-md-inline hidden-sm-down">Contact QUT</span><span class="sr-only hidden-md-up">Contact QUT</span></a></li>
+                    </ul>
+                    <form id="global-search-form" role="search" action="https://qutvirtual4.qut.edu.au/web/qut" method="get" name="search" class="header__searchbox d-lg-none hidden-md-up">
+                        <input name="profile" type="hidden" value="CONTENT">
+                        <input name="params.site" type="hidden" value="www.qut.edu.au">
+                        <label for="global-search-query" style="display:none;" class="sr-only">Search</label>
+                        <button class="header__searchbox__toggle hidden-md-up" aria-expanded="false" aria-label="Search"></button>
+                        <input class="header__searchbox__input" id="global-search-query" name="params.query" type="text">
+                        <input class="header__searchbox__submit blue button" tabindex="-1" type="submit" alt="Search" value="Search">
+                        <!--src="//www.qut.edu.au/__data/assets/file/0003/711678/search-white.svg"-->
+                    </form>
+                    
+                    
+                    <form id="global-search-form-md" role="search" action="https://qutvirtual4.qut.edu.au/web/qut" method="get" name="search" class="header__searchbox d-lg-none hidden-lg-up">
+                        <input name="profile" type="hidden" value="CONTENT">
+                        <input name="params.site" type="hidden" value="www.qut.edu.au">
+                        <label for="md-global-search-query" class="sr-only">Search</label>
+                        <input class="header__searchbox__input" id="md-global-search-query" name="params.query" type="text" placeholder="Search">
+                        <input class="header__searchbox__submit" src="//www.qut.edu.au/__data/assets/file/0003/711678/search-white.svg" type="image" alt="Search"> 
+                    </form>
+                    
+                    
+                    
+                    
+                    <button class="header__links__megamenu d-md-none hidden-md-up closed" aria-expanded="false" aria-label="Main Menu"><span class="sr-only">Menu</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <nav role="navigation" aria-label="site" class="megamenu">
+        <div class="container megamenu__pusher">
+        
+            
+            <div class="megamenu__tab megamenu__tab--narrow-promo" id="study-menu" data-mega-tab="">
+    
+    <div style="position: relative;">
+        <a href="https://www.qut.edu.au/study" id="studyLink" class="megamenu__tab__link megamenu__tab__link--current " aria-current="location"><span>Study</span></a>
+        <button id="btnStudyMenu" class="megamenu__tab__link__focusicon" aria-expanded="false" aria-label="Show" aria-labelledby="btnStudyMenu studyLink"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></button>
+    </div>
+    <div class="link-fader" tabindex="-1"></div>
+    <div class="megamenu__tab__dropdown">
+        <div class="megamenu__tab__contents">
+            <div class="megamenu__subtab__wrapper">
+                
+                <div class="megamenu__subtab megamenu__subtab--current">
+                    <div style="position: relative; display: flex; flex-grow: inherit;">
+                        <a id="undergradLink" class="megamenu__subtab__link megamenu__subtab__link--current" href="https://www.qut.edu.au/study/undergraduate" tabindex="0"><span>Undergraduate</span></a>
+                        <button id="btnUndergradMenu" class="megamenu__subtab__link__focusicon" aria-expanded="false" aria-label="Show" aria-labelledby="btnUndergradMenu undergradLink"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 29.608 50" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="29.608,24.999 27.303,22.694 24.998,20.387 24.997,20.388 4.609,0 0,4.609 20.388,24.997 0,45.386 4.609,50 
+	29.608,25 29.607,24.999 "></polygon>
+</svg></button>
+                    </div>
+                    <div class="megamenu__subtab__content__wrapper">
+                        <div class="megamenu__subtab__content" aria-hidden="true">
+                            <div class="column col-md-8">
+                                <button id="studyAreaButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnStudyAreaMenu undergradStudyAreas">
+                                    <h4 id="undergradStudyAreas" class="column__header">Study areas</h4>
+                                    <div id="btnStudyAreaMenu" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <ul class="arrow-links column-2-desktop" aria-labelledby="undergradStudyAreas">
+                                        <li><a href="https://www.qut.edu.au/study/undergraduate/architecture-and-built-environment" tabindex="-1">Architecture and built environment</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/undergraduate/business" tabindex="-1">Business</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/undergraduate/communication" tabindex="-1">Communication</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/undergraduate/creative-arts" tabindex="-1">Creative arts</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/undergraduate/design" tabindex="-1">Design</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/undergraduate/engineering" tabindex="-1">Engineering</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/english-language-and-pathway-programs?undergraduate" tabindex="-1">English language and pathway programs</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/undergraduate/health" tabindex="-1">Health</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/undergraduate/information-technology-and-games" tabindex="-1">Information technology and games</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/undergraduate/justice" tabindex="-1">Justice</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/languages" tabindex="-1">Languages</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/undergraduate/law" tabindex="-1">Law</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/undergraduate/mathematics-and-data-science" tabindex="-1">Mathematics and data science</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/undergraduate/science" tabindex="-1">Science</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/undergraduate/teaching" tabindex="-1">Teaching</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <!--<div class="column col-md">-->
+                            <!--    <button id="studyAreaButtonMore" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnStudyAreaContMenu undergradStudyAreasCont">-->
+                            <!--        <h4 id="undergradExploreMore" class="column__header">More study areas</h4>-->
+                            <!--        <div id="btnStudyAreaContMenu" class="megamenu__subtab__link__mobileIcon hidden-md-up"><?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584""/>
+</svg></div>-->
+                            <!--    </button>-->
+                            <!--    <div class="column__content">-->
+                            <!--        <ul class="arrow-links" aria-labelledby="undergradStudyAreasMore">-->
+                            <!--            <li><a href="https://www.qut.edu.au/study/health?undergraduate">Health</a></li>-->
+                            <!--            <li><a href="https://www.qut.edu.au/study/information-technology?undergraduate">Information technology</a></li>-->
+                            <!--            <li><a href="https://www.qut.edu.au/study/justice-old?undergraduate">Justice</a></li>-->
+                            <!--            <li><a href="https://www.qut.edu.au/study/languages?undergraduate">Languages</a></li>-->
+                            <!--            <li><a href="https://www.qut.edu.au/study/law-old?undergraduate">Law</a></li>-->
+                            <!--            <li><a href="https://www.qut.edu.au/study/mathematics-old?undergraduate">Mathematics</a></li>-->
+                            <!--            <li><a href="https://www.qut.edu.au/study/science-old?undergraduate">Science</a></li>-->
+                            <!--        </ul>-->
+                            <!--    </div>-->
+                            <!--</div>-->
+                            
+                            <div class="column col-lg col-md-4">
+                                <button id="exploreButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnExploreMenu undergradExplore">
+                                    <h4 id="undergradExplore" class="column__header">Explore</h4>
+                                    <div id="btnExploreMenu" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <ul class="arrow-links" aria-labelledby="undergradExplore">
+                                        <li><a href="./?a=1215293?ug" tabindex="-1">Mid-year entry</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/qut-college" tabindex="-1">QUT College</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/student-life/new-to-qut" tabindex="-1">New to QUT</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/why-qut" tabindex="-1">Why choose QUT</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/options/double-degrees" tabindex="-1">Double degrees</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/options/vertical-double-degrees" tabindex="-1">Vertical degrees</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/options/flexible-study" tabindex="-1">Flexible study</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/applying/undergraduate-applying" tabindex="-1">Applying guide</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/bridging-programs" tabindex="-1">Bridging programs</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/fees-and-scholarships" tabindex="-1">Fees, costs and scholarships</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/relocating" tabindex="-1">Relocating to Brisbane</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/student-life" tabindex="-1">Student life</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/events" tabindex="-1">Events</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="megamenu__subtab">
+                    <div style="position: relative; display: flex; flex-grow: inherit;">
+                        <a id="postgradLink" class="megamenu__subtab__link" href="https://www.qut.edu.au/study/postgraduate" tabindex="0"><span>Postgraduate</span></a>
+                        <button id="btnPostgradMenu" class="megamenu__subtab__link__focusicon" aria-expanded="false" aria-label="Show" aria-labelledby="btnPostgradMenu postgradLink"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 29.608 50" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="29.608,24.999 27.303,22.694 24.998,20.387 24.997,20.388 4.609,0 0,4.609 20.388,24.997 0,45.386 4.609,50 
+	29.608,25 29.607,24.999 "></polygon>
+</svg></button>
+                    </div>
+                    <div class="megamenu__subtab__content__wrapper">
+                        <div class="megamenu__subtab__content" aria-hidden="true">
+                                <div class="column col">
+                                <button id="StudyAreasButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnPostStudyArea postgradStudyAreas">
+                                    <h4 id="postgradStudyAreas" class="column__header">Study areas</h4>
+                                    <div id="btnPostStudyArea" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <ul class="arrow-links" aria-labelledby="postgradStudyAreas">
+                                        <li><a href="https://www.qut.edu.au/study/postgraduate/architecture" tabindex="-1">Architecture</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/postgraduate/business" tabindex="-1">Business</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/postgraduate/communication" tabindex="-1">Communication</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/postgraduate/design" tabindex="-1">Design</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/postgraduate/education" tabindex="-1">Education</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/postgraduate/engineering" tabindex="-1">Engineering</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/postgraduate/health" tabindex="-1">Health</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/postgraduate/information-technology-and-games" tabindex="-1">Information technology and games</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/postgraduate/justice" tabindex="-1">Justice</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/languages" tabindex="-1">Languages</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/postgraduate/law" tabindex="-1">Law</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/postgraduate/mathematics-and-data-science" tabindex="-1">Mathematics and data science</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/postgraduate/project-management" tabindex="-1">Project management</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/postgraduate/science" tabindex="-1">Science</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="column col-md">
+                                <button id="researchButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnPostResearch postgradResearch">
+                                    <h4 id="postgradResearch" class="column__header">Research degrees</h4>
+                                    <div id="btnPostResearch" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <ul class="arrow-links" aria-labelledby="postgradResearch">
+                                        <li><a href="https://www.qut.edu.au/research/study-with-us/phd" tabindex="-1">Doctor of Philosophy</a></li>
+                                        <li><a href="https://www.qut.edu.au/research/study-with-us/master-of-philosophy" tabindex="-1">Master of Philosophy</a></li>
+                                        <li><a href="https://www.qut.edu.au/research/study-with-us/professional-doctorate" tabindex="-1">Professional doctorate</a></li>
+                                    </ul>
+                                </div>
+                                
+                                <button id="postExploreButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnPostExplore postgradExplore">
+                                    <h4 id="postgradExplore" class="column__header">Explore</h4>
+                                    <div id="btnPostExplore" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <ul class="arrow-links" aria-labelledby="postgradExplore">
+                                        <li><a href="https://www.qut.edu.au/study/why-qut?postgraduate" tabindex="-1">Why choose QUT</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/fast-track-to-postgraduate" tabindex="-1">Fast track to postgraduate</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/fees-and-scholarships/scholarships/browse?study-level_key=PGC&amp;student-type_key=PROSPECTIVE&amp;study-area-broad_key=Any&amp;eligibility-citizenship_key=Any&amp;eligibility-criteria_key=Any&amp;query=" tabindex="-1">Scholarships</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/applying/postgraduate-applying-your-guide" tabindex="-1">Applying guide</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/options/flexible-study" tabindex="-1">Flexible study options</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/student-life" tabindex="-1">Student life</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/events" tabindex="-1">Events</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="megamenu__subtab">
+                    <div style="position: relative; display: flex; flex-grow: inherit;">
+                        <a id="onlineLink" class="megamenu__subtab__link" href="https://www.qut.edu.au/study/online" tabindex="0"><span>Online study</span></a>
+                        <button id="btnOnlineMenu" class="megamenu__subtab__link__focusicon" aria-expanded="false" aria-label="Show" aria-labelledby="btnOnlineMenu onlineLink"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 29.608 50" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="29.608,24.999 27.303,22.694 24.998,20.387 24.997,20.388 4.609,0 0,4.609 20.388,24.997 0,45.386 4.609,50 
+	29.608,25 29.607,24.999 "></polygon>
+</svg></button>
+                    </div>
+                    <div class="megamenu__subtab__content__wrapper">
+                        <div class="megamenu__subtab__content" aria-hidden="true">
+                            <div class="column col-md">
+                                <button id="onlineFullyButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnOnlineFully onlineDegrees">
+                                    <h4 id="onlineDegrees" class="column__header">Fully online degrees</h4>
+                                    <div id="btnOnlineFully" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <p>Our collection of courses are taught entirely online, giving you the flexibility to study anywhere, anytime.</p>
+                                    <ul class="arrow-links" aria-labelledby="onlineDegrees">
+                                        <li><a href="https://www.qut.edu.au/study/online/undergraduate-courses" tabindex="-1">Our online undergraduate degrees</a></li>
+                                        <li><a href="https://online.qut.edu.au/online-courses" tabindex="-1">Our online postgraduate degrees</a></li>
+                                    </ul>
+                                </div>
+                                
+                                <!--REMOVED BECAUSE PAGE IS ARCHIVED - GG -->
+                                <!--<button id="higherEdCertsButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnHigherEdCerts higherEducationCertificates">-->
+                                <!--    <h4 id="higherEducationCertificates" class="column__header">Higher education certificates</h4>-->
+                                <!--    <div id="btnHigherEdCerts" class="megamenu__subtab__link__mobileIcon hidden-md-up"><?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584""/>
+</svg></div>-->
+                                <!--</button>-->
+                                <!--<div class="column__content">-->
+                                <!--    <p>Our certificates develop your foundational knowledge and skills, and help you decide further study options and career pathways.</p>-->
+                                <!--    <ul class="arrow-links" aria-labelledby="higherEducationCertificates">-->
+                                <!--        <li><a href="./?a=944507">Our higher education certificates</a></li>-->
+                                <!--    </ul>-->
+                                <!--</div>                                -->
+                            </div>
+                            
+                            <div class="column col-md">
+                                <button id="onlineShortButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnOnlineShort onlineShort">
+                                    <h4 id="onlineShort" class="column__header">Online short courses</h4>
+                                    <div id="btnOnlineShort" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <p>Browse by study area</p>
+                                    <ul class="arrow-links" aria-labelledby="onlineShort">
+                                        <li><a href="https://professional-education.qut.edu.au/study/s/category/products/0ZG8q00000000Gw?area=business" tabindex="-1">Business</a></li>
+                                        <li><a href="https://professional-education.qut.edu.au/study/s/category/products/0ZG8q00000000Gw?area=creative%20industries" tabindex="-1">Creative industries</a></li>
+                                        <li><a href="https://professional-education.qut.edu.au/study/s/category/products/0ZG8q00000000Gw?area=digital%20capability" tabindex="-1">Digital capability</a></li>
+                                        <li><a href="https://professional-education.qut.edu.au/study/s/category/products/0ZG8q00000000Gw?area=education" tabindex="-1">Education</a></li>
+                                        <li><a href="https://professional-education.qut.edu.au/study/s/category/products/0ZG8q00000000Gw?area=engineering" tabindex="-1">Engineering</a></li>
+                                        <li><a href="https://professional-education.qut.edu.au/study/s/category/products/0ZG8q00000000Gw?area=health" tabindex="-1">Health</a></li>
+                                        <li><a href="https://professional-education.qut.edu.au/study/s/category/products/0ZG8q00000000Gw?area=justice" tabindex="-1">Justice</a></li>
+                                        <li><a href="https://professional-education.qut.edu.au/study/s/category/products/0ZG8q00000000Gw?area=languages" tabindex="-1">Languages</a></li>
+                                        <li><a href="https://professional-education.qut.edu.au/study/s/category/products/0ZG8q00000000Gw?area=law" tabindex="-1">Law</a></li>
+                                        <li><a href="https://professional-education.qut.edu.au/study/s/category/products/0ZG8q00000000Gw?area=leadership" tabindex="-1">Leadership</a></li>
+                                        <li><a href="https://professional-education.qut.edu.au/study/s/category/products/0ZG8q00000000Gw?area=science" tabindex="-1">Science</a></li>
+                                        <li><a href="https://professional-education.qut.edu.au/study/s/category/products/0ZG8q00000000Gw?area=transformation" tabindex="-1">Transformation</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="column col-lg col-md-12">
+                                <button id="onlineOpenButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnOnlineOpen onlineOpen">                                
+                                    <h4 id="onlineOpen" class="column__header">Need help deciding?</h4>
+                                    <div id="btnOnlineOpen" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <p>Based on your professional level and experience, combined with your individual needs and motivations, there are several different study formats for you to choose from to help you achieve your career goals.</p>
+                                    <ul class="arrow-links" aria-labelledby="onlineOpen">
+                                        <li><a href="https://www.qut.edu.au/study/short-courses-and-professional-education/learners-guide" tabindex="-1">Learner’s Guide</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="megamenu__subtab">
+                    <div style="position: relative; display: flex; flex-grow: inherit;">
+                        <a id="interLink" class="megamenu__subtab__link" href="https://www.qut.edu.au/study/international" tabindex="0"><span>International<br> students</span></a>
+                        <button id="btnIntMenu" class="megamenu__subtab__link__focusicon" aria-expanded="false" aria-label="Show" aria-labelledby="btnIntMenu interLink"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 29.608 50" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="29.608,24.999 27.303,22.694 24.998,20.387 24.997,20.388 4.609,0 0,4.609 20.388,24.997 0,45.386 4.609,50 
+	29.608,25 29.607,24.999 "></polygon>
+</svg></button>
+                    </div>
+                    <div class="megamenu__subtab__content__wrapper">
+                        <div class="megamenu__subtab__content" aria-hidden="true">
+                            <div class="column col-md-8">
+                                
+                                <button id="intStudyButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnIntStudy intStudyAreas">                                
+                                    <h4 id="intStudyAreas" class="column__header">Study areas</h4>
+                                    <div id="btnIntStudy" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <ul class="arrow-links column-2-desktop" aria-labelledby="intStudyAreas">
+                                        <li><a href="https://www.qut.edu.au/study/international/architecture-and-built-environment" tabindex="-1">Architecture and built environment</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/international/business" tabindex="-1">Business</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/international/communication" tabindex="-1">Communication</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/international/creative-arts" tabindex="-1">Creative arts</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/international/design" tabindex="-1">Design</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/international/engineering" tabindex="-1">Engineering</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/qut-college?international" tabindex="-1">English language and pathway programs</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/international/health" tabindex="-1">Health</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/international/information-technology-and-games" tabindex="-1">Information technology and games</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/international/justice" tabindex="-1">Justice</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/languages" tabindex="-1">Languages</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/international/law" tabindex="-1">Law</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/international/mathematics-and-data-science" tabindex="-1">Mathematics and data science</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/international/project-management" tabindex="-1">Project management</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/international/science" tabindex="-1">Science</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/international/teaching-and-education" tabindex="-1">Teaching and education</a></li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="column col-md">
+                                
+                                <button id="intExploreButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnIntExplore intExplore">                                
+                                    <h4 id="intExplore" class="column__header">Explore</h4>
+                                    <div id="btnIntExplore" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <ul class="arrow-links" aria-labelledby="intExplore">
+                                        <li><a href="https://www.qut.edu.au/study/international/student-life" tabindex="-1">Student life</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/international/support" tabindex="-1">Student support</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/international/find-a-representative" tabindex="-1">QUT in your country</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/why-qut?international" tabindex="-1">Why choose QUT</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/international/living-in-brisbane" tabindex="-1">Living in Brisbane</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/international/scholarship-opportunities" tabindex="-1">Scholarships</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/qut-college" tabindex="-1">QUT College</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/applying/international-applying" tabindex="-1">Applying guide</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/options/study-abroad-and-exchange/inbound-exchange" tabindex="-1">Study abroad and exchange</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/international/events" tabindex="-1">Events</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/enquiry" tabindex="-1">Ask us a question</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/international/for-agents" tabindex="-1">Agent resources</a></li>
+                                    </ul>
+                                </div>
+                                <!-- <button id="intLanguageButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnIntLanaguage intLanguage">                                -->
+                                <!--    <h4 id="intLanguage" class="column__header">QUT in your language</h4>-->
+                                <!--    <div id="btnIntLanguage" class="megamenu__subtab__link__mobileIcon hidden-md-up"><?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584""/>
+</svg></div>-->
+                                <!--</button>-->
+                                <!--<div class="column__content">-->
+                                <!--    <ul class="arrow-links" aria-labelledby="intLanguage">-->
+                                <!--        <li><a href="https://www.qut.edu.au/study/international#QUT_in_your_language">View our site in your language</a></li>-->
+                                <!--        </ul>-->
+                                <!--        </div>-->
+                            </div>
+                            
+                            <!-- <div class="column col-lg col-md-12">-->
+                                
+                                <!-- <button id="intLangButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnIntLang intLang"-->                                
+                                    <!--<h4 id="intLang" class="column__header">Other languages</h4-->
+                                    <!--<div id="btnIntLang" class="megamenu__subtab__link__mobileIcon hidden-md-up"><?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584""/>
+</svg></div-->
+                                <!--</button-->
+                                <!--div class="column__content"-->
+                                    <!--<ul class="arrow-links" aria-labelledby="intLang"-->
+                                        <!--<li><a href="https://www.qut.edu.au/study/international/arabic" dir="rtl" lang="ar">عربي</a></l--i> <!-- Arabic -->
+                                        <!--<li><a href="https://www.qut.edu.au/study/international/indonesian" lang="in">Bahasa Indonesia</a></li--> <!-- Indonesian -->
+                                        <!--<li><a href="https://www.qut.edu.au/study/international/spanish" lang="es">español</a></li--> <!-- Spanish -->
+                                        <!--<li><a href="https://www.qut.edu.au/study/international/chinese-simplified" lang="zh-Hans">简体字版</a></li--> <!-- Simplified Chinese -->
+                                        <!--<li><a href="https://www.qut.edu.au/study/international/chinese-traditional" lang="zh-Hant">繁體字版</a></li--> <!-- Traditional Chinese -->
+                                        <!--<li><a href="https://www.qut.edu.au/study/international/japanese" lang="ja">日本語</a></li--> <!-- Japanese -->
+                                        <!--<li><a href="https://www.qut.edu.au/study/international/korean" lang="ko">한국어</a></li--> <!-- Korean -->
+                                        <!--<li><a href="https://www.qut.edu.au/study/international/portuguese" lang="pt">português</a></li--> <!-- Portugues -->
+                                        <!--<li><a href="https://www.qut.edu.au/study/international/thai" lang="th">ภาษาไทย</a></li--> <!-- Thai -->
+                                        <!--<li><a href="https://www.qut.edu.au/study/international/vietnamese" lang="vi">tiếng Việt</a></li--> <!-- Vietnamese -->
+                                    <!--</ul-->
+                                <!--</div-->
+                            <!--</div-->
+                        </div>
+                    </div>                    
+                </div>
+                
+                <div class="megamenu__subtab">
+                    <div style="position: relative; display: flex; flex-grow: inherit;">
+                        <a id="execLink" class="megamenu__subtab__link" href="https://www.qut.edu.au/study/short-courses-and-professional-education" tabindex="0"><span>Short courses and professional education</span></a>
+                        <button id="btnExecMenu" class="megamenu__subtab__link__focusicon" aria-expanded="false" aria-label="Show" aria-labelledby="btnExecMenu execLink"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 29.608 50" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="29.608,24.999 27.303,22.694 24.998,20.387 24.997,20.388 4.609,0 0,4.609 20.388,24.997 0,45.386 4.609,50 
+	29.608,25 29.607,24.999 "></polygon>
+</svg></button>
+                    </div>
+                    <div class="megamenu__subtab__content__wrapper">
+                        <div class="megamenu__subtab__content" aria-hidden="true">
+
+                            <div class="column col-md">
+                               
+                                <button id="execInfoButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnExecInfo execInfo">                                
+                                    <h4 id="execInfo" class="column__header">Short courses and professional education</h4>
+                                    <div id="btnExecInfo" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <p style="line-height: 1.3;">Bringing together knowledge from across the whole university to help you or your organisation get <strong>future fit, fast</strong>.</p>
+                                    <ul class="arrow-links" aria-labelledby="execInfo">
+                                        <li><a href="https://www.qut.edu.au/study/short-courses-and-professional-education" tabindex="-1">More about us</a></li>
+										
+										<li><a href="https://www.qut.edu.au/study/short-courses-and-professional-education/contact-us" tabindex="-1">Contact us</a></li>
+                                    </ul>
+                                </div>
+								<button id="execEvensButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnExecEvents execEvents">                                
+                                
+                                </button>
+							
+								
+                            </div>  
+                            
+                            <div class="column col-md">
+                                
+                                <button id="execIndividualsButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnExecIndividuals execIndividuals">                                
+                                    <h4 id="execIndividuals" class="column__header">For individuals</h4>
+                                    <div id="btnExecIndividuals" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+									<p style="line-height: 1.3;">Improve your performance, advance your career or make a change with real world short courses.</p>
+									<ul class="arrow-links" aria-labelledby="execIndividuals">
+                                        <li><a href="https://professional-education.qut.edu.au/study/s/category/products/0ZG8q00000000Gw" tabindex="-1">Browse all courses</a></li>
+									</ul>
+									<p style="line-height: 1.3;">Take your development further with advanced learning and award pathways.</p>
+                                    <ul class="arrow-links" aria-labelledby="execIndividuals">
+                                        
+                                        <!--<li><a href="https://professional-education.qut.edu.au/study/s/category/products/0ZG8q00000000Gw">Enterprise Leadership</a></li>-->
+                                        <li><a href="https://www.qut.edu.au/study/short-courses-and-professional-education/pathways-to-politics-for-women" tabindex="-1">Pathways to Politics for Women</a></li>
+                                        <li><a href="https://www.qut.edu.au/courses/graduate-certificate-in-business-public-sector-management" tabindex="-1">Public Sector Management</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/short-courses-and-professional-education/enterprise-leadership" tabindex="-1">Enterprise Leadership</a></li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+							
+							<div class="column col-lg col-md-12">
+                                
+                                <button id="execOrganisationsButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnExecOrganisations execOrganisations">                                
+                                    <h4 id="execOrganisations" class="column__header">For organisations</h4>
+                                    <div id="btnExecOrganisations" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+								
+									<p style="line-height: 1.3;">Achieve exceptional business outcomes with co-designed executive education.</p>
+								
+                                    <ul class="arrow-links" aria-labelledby="execOrganisations">
+                                        <li><a href="https://www.qut.edu.au/study/short-courses-and-professional-education/for-organisations" tabindex="-1">Tailored executive education</a></li>
+                                        <!--<li><a href="./?a= 901279">Digital Capability Practice</a></li>-->
+                                        <!--<li><a href="./?a= 991483">Leadership Coaching Practice</a></li>-->
+                                        <!--<li><a href="./?a= 884371">Speakers' Circle</a></li>-->
+										<li><a href="https://www.qut.edu.au/study/short-courses-and-professional-education/for-organisations/corporate-bundles" tabindex="-1">Corporate Bundles</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <form method="get" class="megamenu__subtab__searchbox searchbox--flat" name="search" action="https://qutvirtual4.qut.edu.au/web/qut/search" id="course-search-form">
+                    <input name="profile" type="hidden" value="CONTENT">
+                    <input name="params.site" type="hidden" value="www.qut.edu.au/courses">
+                    <input name="params.siteSelected" type="hidden" value="true">
+                    <label for="megamenu-course-search-query" class="sr-only">Find a course</label>
+                    <input id="megamenu-course-search-query" class="megamenu__subtab__searchbox__input" type="text" name="params.query" placeholder="Find a course">
+                    <input class="megamenu__subtab__searchbox__submit" src="https://www.qut.edu.au/__data/assets/file/0008/705491/search.svg" type="image" alt="Search"> 
+                </form>
+            </div>
+
+            <div id="undergraduate-promo" class="megamenu__tab__promo hidden-lg-down" style="background-image: url(https://cms.qut.edu.au/__data/assets/image/0008/1249910/mms-study-mega.jpg);">
+                <div class="promo-caption">
+                    <a class="arrow-link invert" href="https://www.qut.edu.au/study/match-my-skills">Match My Skills</a>
+                    <p>Create a personalised guide to reaching your dream career by taking our Match My Skills quiz.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="megamenu__tab megamenu__tab--wide-promo" id="research-menu" data-mega-tab="">
+    <div style="position: relative;">
+        <a href="https://www.qut.edu.au/research" id="researchLink" class="megamenu__tab__link "><span>Research</span></a>
+        <button id="btnResearchMenu" class="megamenu__tab__link__focusicon" aria-expanded="false" aria-label="Show" aria-labelledby="btnResearchMenu researchLink"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></button>
+    </div>
+    <div class="megamenu__tab__dropdown">
+        <div class="megamenu__tab__contents">
+            <div class="megamenu__subtab__wrapper">
+                
+                <div class="megamenu__subtab megamenu__subtab--current">
+                    <div style="position: relative; display: flex; flex-grow: inherit;">
+                        <a id="whyQutLink" class="megamenu__subtab__link megamenu__subtab__link--current" href="https://www.qut.edu.au/research/why-qut" tabindex="0"><span>Why QUT</span></a>
+                        <button id="btnWhyQutMenu" class="megamenu__subtab__link__focusicon" aria-expanded="false" aria-label="Show" aria-labelledby="btnWhyQutMenu whyQutLink"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 29.608 50" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="29.608,24.999 27.303,22.694 24.998,20.387 24.997,20.388 4.609,0 0,4.609 20.388,24.997 0,45.386 4.609,50 
+	29.608,25 29.607,24.999 "></polygon>
+</svg>
+                    </button></div>
+                    <div class="megamenu__subtab__content__wrapper">
+                        <div class="megamenu__subtab__content" aria-hidden="true">
+                            <div class="column col-md">
+                                
+                                <button id="whyQutExploreButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnWhyQutExplore whyQutExplore">                                
+                                    <h4 id="whyQutExplore" class="column__header">Explore</h4>
+                                    <div id="btnWhyQutExplore" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <ul class="arrow-links" aria-labelledby="whyQutExplore">
+                                        <li>
+                                            <a href="https://www.qut.edu.au/research/why-qut/research-and-innovation" tabindex="-1">Our research vision</a>
+                                            
+                                        </li>
+                                        <li>
+                                            <a href="https://www.qut.edu.au/research/why-qut/equity-and-diversity" tabindex="-1">Equity and diversity</a>
+                                            
+                                        </li>
+										 <li>
+                                            <a href="https://www.qut.edu.au/research/study-with-us/research-support" tabindex="-1">Support for researchers</a>
+                                            
+                                        </li>
+                                        <li>
+                                            <a href="https://www.qut.edu.au/research/our-experts" tabindex="-1">Meet our experts</a>
+                                            
+                                        </li>
+                                        <li>
+                                            <a href="https://www.qut.edu.au/research/why-qut/ethics-and-integrity" tabindex="-1">Ethics and integrity</a>
+                                            
+                                        </li>
+                                        <li>
+                                            <a href="https://qut.nga.net.au/cp/index.cfm?event=jobs.listJobs&amp;jobListid=1ad2dcdd-b614-6387-c683-52af99b625ee" tabindex="-1">Research jobs at QUT</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="column col-md">
+                                
+                                <button id="worldClassButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnWorldClass worldClass">                                
+                                    <h4 id="worldClass" class="column__header">Our facilities</h4>
+                                    <div id="btnWorldClass" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <ul class="arrow-links" aria-labelledby="worldClass">
+                                        <li><a href="https://www.qut.edu.au/research/why-qut/infrastructure/bioinnovation-research-facility" tabindex="-1">Bioinnovation Research Facility</a></li>
+                                        <li><a href="https://www.qut.edu.au/research/why-qut/infrastructure/central-analytical-research-facility" tabindex="-1">Central Analytical Research Facility</a></li>
+                                        <li><a href="https://www.qut.edu.au/research/why-qut/infrastructure/design-and-fabrication-research-facility" tabindex="-1">Design and Fabrication Research Facility</a></li>
+                                        <li><a href="https://www.qut.edu.au/research/why-qut/infrastructure/digital-observatory" tabindex="-1">Digital Observatory</a></li>
+                                        <li><a href="https://www.qut.edu.au/research/eresearch" tabindex="-1">eResearch</a></li>
+                                        <li><a href="https://www.qut.edu.au/research/why-qut/infrastructure/medical-engineering-research-facility" tabindex="-1">Medical Engineering Research Facility</a></li>
+                                        <li><a href="https://www.qut.edu.au/research/why-qut/infrastructure/research-engineering-facility" tabindex="-1">Research Engineering Facility</a></li>
+                                        <li><a href="https://www.qut.edu.au/research/why-qut/infrastructure/samford-ecological-research-facility" tabindex="-1">Samford Ecological Research Facility</a></li>
+                                        <li><a href="https://www.qut.edu.au/research/why-qut/infrastructure/viser" tabindex="-1">VISER</a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div class="column col-md">
+                                
+                                <button id="alliedFacilitiesButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnAlliedFacilities">                                
+                                    <h4 id="alliedFacilities" class="column__header">Allied facilities</h4>
+                                    <div id="btnAlliedFacilities" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <ul class="arrow-links" aria-labelledby="alliedFacilities">
+                                        <li><a href="https://armhub.com.au/" tabindex="-1">Advanced Robotics for Manufacturing Hub</a></li>
+                                        <li><a href="https://www.hirf.com.au/" tabindex="-1">Herston Imaging Research Facility</a></li>
+                                        <li><a href="https://tciq.org.au/" tabindex="-1">Translational Cell Imaging Queensland</a></li>
+                                        <li><a href="https://www.qut.edu.au/research/why-qut/infrastructure/translational-research-institute" tabindex="-1">Translational Research Institute</a></li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="megamenu__subtab">
+                    <div style="position: relative; display: flex; flex-grow: inherit;">
+                        <a id="ourResearchLink" class="megamenu__subtab__link" href="https://www.qut.edu.au/research/our-research" tabindex="0"><span>Our research</span></a>
+                        <button id="btnOurResearchMenu" class="megamenu__subtab__link__focusicon" aria-expanded="false" aria-label="Show" aria-labelledby="btnOurResearchMenu ourResearchLink"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 29.608 50" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="29.608,24.999 27.303,22.694 24.998,20.387 24.997,20.388 4.609,0 0,4.609 20.388,24.997 0,45.386 4.609,50 
+	29.608,25 29.607,24.999 "></polygon>
+</svg></button>
+                    </div>
+                    <div class="megamenu__subtab__content__wrapper">
+                        <div class="megamenu__subtab__content" aria-hidden="true">
+                            <div class="column col-md">
+                                <button id="researchProjectsButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnResearchProjects researchProjects">                                
+                                    <h4 id="researchProjects" class="column__header">Research by area</h4>
+                                    <div id="btnResearchStrengths" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <ul class="arrow-links" aria-labelledby="researchProjects">
+                                        <li>
+                                            <a href="https://www.qut.edu.au/research/our-research/architecture-and-built-environment" tabindex="-1">Architecture and built environment</a>
+                                        </li>
+                                         <li>
+                                            <a href="https://www.qut.edu.au/research/our-research/business-and-law" tabindex="-1">Business and law</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.qut.edu.au/research/our-research/creative-industries-education-and-social-justice" tabindex="-1">Creative industries, education and social justice</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.qut.edu.au/research/our-research/engineering" tabindex="-1">Engineering</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.qut.edu.au/research/our-research/health" tabindex="-1">Health</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.qut.edu.au/research/our-research/science" tabindex="-1">Science</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.qut.edu.au/research/our-research#Research_projects" tabindex="-1">Browse all our projects</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button id="ParticipateResearchButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnParticipateResearch ParticipateResearch">                                
+                                    <h4 id="ParticipateResearch" class="column__header">Participate in research</h4>
+                                    <div id="btnParticipateResearch" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    
+                                    <ul class="arrow-links" aria-labelledby="ParticipateResearch">
+                                        <li><a href="https://www.qut.edu.au/research/our-research/participate-in-research" tabindex="-1">Explore open research projects</a>
+                                        <p>Get involved with research projects that tackle real-world challenges.</p>
+                                        </li>
+                                    </ul>
+                                    
+                             
+                                </div> 
+                            </div>                            
+
+                            <div class="column col-md">
+                                
+                                <button id="researchStrengthsButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnResearchStrengths researchStrengths">                                
+                                    <h4 id="researchStrengths" class="column__header">Research strengths</h4>
+                                    <div id="btnResearchStrengths" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <p>We're invested in research identified as priorities for the world, the nation and the state.</p>
+                                    <ul class="arrow-links" aria-labelledby="researchStrengths">
+                                        <li>
+                                            <a href="https://www.qut.edu.au/research/our-research#research-strengths" tabindex="-1">Our strengths</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.qut.edu.au/research/our-research/indigenous-australian" tabindex="-1">Indigenous research</a>
+                                        </li>
+                                         <li>
+                                            <a href="https://www.qut.edu.au/about/priorities/sustainability/sustainable-development-goals" tabindex="-1">Sustainability</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.qut.edu.au/research/partner-with-us/research-initiatives" tabindex="-1">Research initiatives</a>
+                                        </li>
+                                    </ul>
+                                </div>  
+                                <button id="RealFocusButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnRealFocus RealFocus">
+                                    <h4 id="RealFocus" class="column__header">Real Focus</h4>
+                                    <div id="btnRealFocus" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <p>See the stories behind QUT research. Read in-depth features and commentary about innovations that are shaping the world.</p>
+                                    <ul class="arrow-links" aria-labelledby="RealFocus">
+                                        <li><a href="https://www.qut.edu.au/news/realfocus" tabindex="-1">Read Real Focus</a>
+                                        </li>
+                                    </ul>
+                                    
+                             
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="megamenu__subtab">
+                    <div style="position: relative; display: flex; flex-grow: inherit;">
+                        <a id="studyWithLink" class="megamenu__subtab__link" href="https://www.qut.edu.au/study/research-degrees" tabindex="0"><span>Study with us</span></a>
+                        <button id="btnStudyWithMenu" class="megamenu__subtab__link__focusicon" aria-expanded="false" aria-label="Show" aria-labelledby="btnStudyWithMenu studyWithLink"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 29.608 50" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="29.608,24.999 27.303,22.694 24.998,20.387 24.997,20.388 4.609,0 0,4.609 20.388,24.997 0,45.386 4.609,50 
+	29.608,25 29.607,24.999 "></polygon>
+</svg></button>
+                    </div>
+                    <div class="megamenu__subtab__content__wrapper">
+                        <div class="megamenu__subtab__content" aria-hidden="true">
+                            <div class="column col-md">
+                                
+                                <button id="ResearchDegreesButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnResearchDegrees researchDegrees">                                
+                                    <h4 id="researchDegrees" class="column__header">Research degrees</h4>
+                                    <div id="btnResearchDegrees" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <ul class="arrow-links" aria-labelledby="researchDegrees">
+                                        <li>
+                                            <a href="https://www.qut.edu.au/research/study-with-us/phd" tabindex="-1">Doctor of Philosophy</a>
+                                            <p>Make a significant contribution to new knowledge in your field.</p>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.qut.edu.au/research/study-with-us/master-of-philosophy" tabindex="-1">Master of Philosophy</a>
+                                            <p>An ideal stepping-stone to a PhD.</p>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.qut.edu.au/research/study-with-us/professional-doctorate" tabindex="-1">Professional doctorate</a>
+                                            <p>Integrate a research degree into your professional goals.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="column col-md">
+                                
+                                <button id="studyWithUsExploreButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnStudyWithUs studyWithUsExplore">                                
+                                    <h4 id="studyWithUsExplore" class="column__header">Explore</h4>
+                                    <div id="btnstudyWithUsExplore" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <ul class="arrow-links" aria-labelledby="studyWithUsExplore">
+                                        <li><a href="https://www.qut.edu.au/research/our-experts" tabindex="-1">Find a supervisor</a></li>
+                                        <li><a href="https://www.qut.edu.au/research/study-with-us/student-topics" tabindex="-1">Find a research topic</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/fees-and-scholarships/scholarships/browse?study-level_key=PGR&amp;eligibility-citizenship_key=DOM" tabindex="-1">Scholarships (Australian and New Zealand students)</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/fees-and-scholarships/scholarships/browse?study-level_key=PGR&amp;eligibility-citizenship_key=INT" tabindex="-1">Scholarships (international students)</a></li>
+                                        <li><a href="https://www.qut.edu.au/research/study-with-us/tuition-and-study-costs" tabindex="-1">Tuition and study costs</a></li>
+                                        <li><a href="https://www.qut.edu.au/research/study-with-us/research-support" tabindex="-1">Supporting your research journey</a></li>
+                                        <li><a href="https://www.qut.edu.au/research/study-with-us/how-to-apply" tabindex="-1">Applying guide</a></li>
+                                        <li><a href="https://www.qut.edu.au/research/e-grad-school" tabindex="-1">e-Grad School</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="megamenu__subtab">
+                    <div style="position: relative; display: flex; flex-grow: inherit;">
+                        <a id="partnerLink" class="megamenu__subtab__link" href="https://www.qut.edu.au/research/partner-with-us" tabindex="0"><span>Partner with us</span></a>
+                        <button id="btnPartnerMenu" class="megamenu__subtab__link__focusicon" aria-expanded="false" aria-label="Show" aria-labelledby="btnPartnerMenu partnerLink"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 29.608 50" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="29.608,24.999 27.303,22.694 24.998,20.387 24.997,20.388 4.609,0 0,4.609 20.388,24.997 0,45.386 4.609,50 
+	29.608,25 29.607,24.999 "></polygon>
+</svg></button>
+                    </div>
+                    <div class="megamenu__subtab__content__wrapper">
+                        <div class="megamenu__subtab__content" aria-hidden="true">
+                            <div class="column col-md">
+                                
+                                <button id="collaborateWithUsButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnCollaborateWithUs collaborateWithUs">                                
+                                    <h4 id="collaborateWithUs" class="column__header">Collaborate with us</h4>
+                                    <div id="btnCollaborateWithUs" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <ul class="arrow-links" aria-labelledby="collaborateWithUs">
+                                        <li>
+                                            <a href="https://www.qut.edu.au/research/our-experts" tabindex="-1">Our experts</a>
+                                            <p>Search for a research supervisor, industry expert or collaborator.</p>
+                                        </li>
+                                        <li>
+                                            <a href="https://qut.nga.net.au/cp/index.cfm?event=jobs.listJobs&amp;jobListid=1ad2dcdd-b614-6387-c683-52af99b625ee" tabindex="-1">Research jobs at QUT</a>
+                                            <p>Integrate a research degree into your professional goals.</p>
+                                        </li>
+										<li>
+                                            <a href="https://www.qut.edu.au/engage/industry-and-partnerships/work-with-students/research-student-engagement" tabindex="-1">Engage with our graduate researchers</a>
+                                            <p>Work with graduate researchers to help solve your real-world problems.</p>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.qut.edu.au/research/partner-with-us/research-initiatives" tabindex="-1">Research initiatives</a>
+                                            <p>Learn about QUT’s involvement in collaborative research initiatives.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="column col-md">
+                                
+                                <button id="researchPartnersButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnResearchPartners researchPartners">                                
+                                    <h4 id="researchPartners" class="column__header">Research partnerships</h4>
+                                    <div id="btnResearchPartners" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <ul class="arrow-links" aria-labelledby="researchPartners">
+                                        
+                                        <li><a href="https://www.qut.edu.au/research/partner-with-us/case-study-plant-genomics" tabindex="-1">Plant genomics</a></li>
+                                        <li><a href="https://www.qut.edu.au/research/partner-with-us/case-study-australian-centre-for-health-law-research" tabindex="-1">Australian Centre for Health Law Research</a></li>
+                                        <li><a href="https://www.qut.edu.au/research/partner-with-us/case-study-biorefineries-for-profit" tabindex="-1">Biorefineries for profit</a></li>
+                                        <li><a href="https://www.qut.edu.au/research/partner-with-us/case-study-carrs-q" tabindex="-1">CARRS-Q</a></li>
+                                        <li><a href="https://www.qut.edu.au/research/partner-with-us/case-study-prime-futures" tabindex="-1">PRIME Futures</a></li>
+                                     
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="why-qut-promo" class="megamenu__tab__promo hidden-lg-down" style="background-image: url(https://cms.qut.edu.au/__data/assets/image/0010/1378873/research-participants_300x300.jpg);">
+                <div class="promo-caption">
+                    <a class="arrow-link invert" href="https://www.qut.edu.au/research/our-research/participate-in-research">Join a research study</a>
+                    <p>Help our researchers develop solutions for real-world challenges by participating in research.
+</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="megamenu__tab megamenu__tab--wide-promo" id="engage-menu" data-mega-tab="">
+    <div style="position: relative;">
+        <a href="https://www.qut.edu.au/engage" id="engageLink" class="megamenu__tab__link "><span>Engage</span></a>
+        <button id="btnEngageMenu" class="megamenu__tab__link__focusicon" aria-expanded="false" aria-label="Show" aria-labelledby="btnEngageMenu engageLink"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></button>
+    </div>
+    <div class="megamenu__tab__dropdown">
+        <div class="megamenu__tab__contents">
+            <div class="megamenu__subtab__wrapper">
+                
+                <div class="megamenu__subtab megamenu__subtab--current">
+                    <div style="position: relative; display: flex; flex-grow: inherit;">
+                        <a id="industryPartnerLink" class="megamenu__subtab__link megamenu__subtab__link--current" href="https://www.qut.edu.au/engage/industry-and-partnerships" tabindex="0"><span>Industry and partnerships</span></a>
+                        <button id="btnIndustryPartnerMenu" class="megamenu__subtab__link__focusicon" aria-expanded="false" aria-label="Show" aria-labelledby="btnIndustryPartnerMenu industryPartnerLink"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 29.608 50" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="29.608,24.999 27.303,22.694 24.998,20.387 24.997,20.388 4.609,0 0,4.609 20.388,24.997 0,45.386 4.609,50 
+	29.608,25 29.607,24.999 "></polygon>
+</svg></button>
+                    </div>
+                    <div class="megamenu__subtab__content__wrapper">
+                        <div class="megamenu__subtab__content" aria-hidden="true">
+                            <div class="column col-md">
+                                
+                                <button id="workWithStudentsButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnWorkWithStudents workWithStudents">                                
+                                    <h4 id="workWithStudents" class="column__header">Work with our students</h4>
+                                    <div id="btnWorkWithStudents" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <ul class="arrow-links" aria-labelledby="workWithStudents">
+                                        
+                                        <li>
+                                            <a href="https://www.qut.edu.au/engage/industry-and-partnerships/work-with-students" tabindex="-1">Employment and mentorship</a>
+                                            <p>Find graduate and student talent to employ, or mentor our students.</p>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.qut.edu.au/engage/industry-and-partnerships/work-with-students/host-student-internships-placements-projects" tabindex="-1">Work placements</a>
+                                            <p>Partner with us to offer work experience opportunities to our students.</p>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.qut.edu.au/engage/industry-and-partnerships/work-with-students/sponsor-scholarships-prizes-and-events" tabindex="-1">Sponsor scholarships and events</a>
+                                            <p>Make a difference to students and the university.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button id="Industry-and-partnerships-Engagement-through-sport-button" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="Industry-and-partnerships-Engagement-through-sport-mobile Industry-and-partnerships-Engagement-through-sport">
+    <h4 id="Industry-and-partnerships-Engagement-through-sport" class="column__header">Engagement through sport</h4>
+    <div id="Industry-and-partnerships-Engagement-through-sport-mobile" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584"></polygon>
+</svg></div>
+</button>
+<div class="column__content">
+    <ul class="arrow-links " aria-labelledby="Industry-and-partnerships-Engagement-through-sport">
+    <li><a href="https://www.qut.edu.au/engage/industry-and-partnerships/queensland-rugby-union-partnership" tabindex="-1">
+
+Queensland Rugby Union partnership</a>
+
+
+<p>Learn more about our role as the Queensland Reds Education Partner.</p>
+
+</li><li><a href="https://www.qut.edu.au/engage/industry-and-partnerships/olympic-and-paralympic-games" tabindex="-1">
+
+Olympic and Paralympic Games 2032</a>
+
+
+<p>A once-in-a-lifetime opportunity to showcase SEQ's strengths to the world.</p>
+
+</li>
+</ul>
+</div>
+                            </div>
+                            <div class="column col-md">
+                                
+                                <button id="engageIndustryInnovButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnEngageIndustryInnov engageIndustryInnov">                                
+                                    <h4 id="engageIndustryInnov" class="column__header">Industry and innovation</h4>
+                                    <div id="btnEngageIndustryInnov" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <ul class="arrow-links" aria-labelledby="engageIndustryInnov">
+                                        <li>
+                                            <a href="https://www.qut.edu.au/research/partner-with-us" tabindex="-1">Research partnerships</a>
+                                            <p>Start a collaborative research partnership with our experts.</p>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.qut.edu.au/engage/industry-and-partnerships/expertise-for-industry" tabindex="-1">Expertise for industry</a>
+                                            <p>We can help with more than research. See how we can support your business.</p>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <button id="engageProfessionalButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnEngageProfessional engageProfessional">                                
+                                    <h4 id="engageProfessional" class="column__header">Professional development</h4>
+                                    <div id="btnEngageProfessional" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <ul class="arrow-links" aria-labelledby="engageProfessional">
+                                        <li>
+                                            <a href="https://www.qut.edu.au/study/short-courses-and-professional-education/for-organisations" tabindex="-1">Customised executive education</a>
+                                            <p>Customised  professional development solutions for your team.</p>
+                                        </li>
+                                        <li>
+                                            <a href="https://professional-education.qut.edu.au/study/s/category/products/0ZG8q00000000Gw" tabindex="-1">Short courses and professional development</a>
+                                            <p>Study a short course for personal or professional development.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="megamenu__subtab">
+                    <div style="position: relative; display: flex; flex-grow: inherit;">
+                        <a id="givingLink" class="megamenu__subtab__link" href="https://www.qut.edu.au/engage/giving" tabindex="0"><span>Giving</span></a>
+                        <button id="btnGivingMenu" class="megamenu__subtab__link__focusicon" aria-expanded="false" aria-label="Show" aria-labelledby="btnGivingMenu givingLink"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 29.608 50" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="29.608,24.999 27.303,22.694 24.998,20.387 24.997,20.388 4.609,0 0,4.609 20.388,24.997 0,45.386 4.609,50 
+	29.608,25 29.607,24.999 "></polygon>
+</svg></button>
+                    </div>
+                    <div class="megamenu__subtab__content__wrapper">
+                        <div class="megamenu__subtab__content" aria-hidden="true">
+                            <div class="column col-md">
+                                
+                                <button id="giveToQutButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnGiveToQut giveToQut">                                
+                                    <h4 id="giveToQut" class="column__header">Give to QUT</h4>
+                                    <div id="btnGiveToQut" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <ul class="arrow-links" aria-labelledby="giveToQut">
+                                        <li>
+                                            <a href="https://www.qut.edu.au/engage/giving/ways-to-give" tabindex="-1">Ways to give</a>
+                                            <p>Discover the different options to donate to QUT.</p>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.qut.edu.au/engage/alumni/get-involved " tabindex="-1">Get involved</a>
+                                            <p>Share your skills or time by participating in research studies, mentoring our students, giving a guest lecture or volunteering.</p>
+                                        </li> 
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="column col-md">
+                                <button id="givingContributeButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnGivingContribute givingContribute">                                
+                                    <h4 id="givingContribute" class="column__header">Contribute</h4>
+                                    <div id="btnGivingContribute" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <ul class="arrow-links" aria-labelledby="givingContribute">
+                                        <li>
+                                            <a href="https://www.qut.edu.au/engage/giving/support-students" tabindex="-1">Support students</a>
+                                            <p>Give the life-changing gift of education by contributing to a scholarship.</p>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.qut.edu.au/engage/giving/support-research" tabindex="-1">Support research</a>
+                                            <p>Help shape a better world by giving to a research project.</p>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.qut.edu.au/engage/giving/support-community" tabindex="-1">Support community</a>
+                                            <p>Elevate society by supporting community programs and cultivating Indigenous connections.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+                
+                <div class="megamenu__subtab">
+                    <div style="position: relative; display: flex; flex-grow: inherit;">
+                        <a id="alumniLink" class="megamenu__subtab__link" href="https://www.qut.edu.au/engage/alumni" tabindex="0"><span>Alumni</span></a>
+                        <button id="btnAlumniMenu" class="megamenu__subtab__link__focusicon" aria-expanded="false" aria-label="Show" aria-labelledby="btnAlumniMenu alumniLink"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 29.608 50" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="29.608,24.999 27.303,22.694 24.998,20.387 24.997,20.388 4.609,0 0,4.609 20.388,24.997 0,45.386 4.609,50 
+	29.608,25 29.607,24.999 "></polygon>
+</svg></button>
+                    </div>
+                    <div class="megamenu__subtab__content__wrapper">
+                        <div class="megamenu__subtab__content" aria-hidden="true">
+                            <div class="column col-md">
+                                
+                                <button id="alumniNetworkingButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnAlumniNetworking alumniNetworking">                                
+                                    <h4 id="alumniNetworking" class="column__header">Explore your alumni network</h4>
+                                    <div id="btnAlumniNetworking" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <ul class="arrow-links" aria-labelledby="alumniNetworking">
+                                        <li><a href="https://www.qut.edu.au/engage/alumni/new-graduates" tabindex="-1">New graduates</a></li>
+                                        <li><a href="https://www.qut.edu.au/engage/alumni/get-involved" tabindex="-1">Get involved</a></li>
+                                        <li><a href="https://www.qut.edu.au/engage/alumni/grow-your-knowledge" tabindex="-1">Grow your knowledge</a></li>
+                                        <li><a href="https://www.qut.edu.au/engage/alumni/events" tabindex="-1">Connect and engage at events</a></li>
+                                        <li><a href="https://www.qut.edu.au/engage/alumni/industry-leading-alumni" tabindex="-1">Industry-leading alumni</a></li>
+                                        <li><a href="https://www.qut.edu.au/engage/alumni/indigenous-australian" tabindex="-1">Indigenous Australian alumni</a></li>
+                                    </ul>
+                                </div>
+                                
+                                <button id="alumniBenefitsButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnAlumniBenefits alumniBenefits">                                
+                                    <h4 id="alumniBenefits" class="column__header">Additional resources</h4>
+                                    <div id="btnAlumniBenefits" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <ul class="arrow-links" aria-labelledby="alumniBenefits">
+                                        <li><a href="https://www.qut.edu.au/engage/alumni/tools-and-resources" tabindex="-1">Alumni tools and FAQs</a></li>
+                                        <li><a href="https://www.qut.edu.au/engage/alumni/benefits" tabindex="-1">Discounts and offers</a></li> 
+                                    </ul>
+                                </div>
+                                 
+                            </div>
+                            
+                            <div class="column col-md">
+                                
+                                <button id="alumniAwardsButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnAlumniAwards alumniAwards">                                
+                                    <h4 id="alumniAwards" class="column__header">Connect</h4>
+                                    <div id="btnAlumniAwards" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <ul class="arrow-links" aria-labelledby="alumniAwards">
+                                        <li>
+                                            <a href="https://www.qut.edu.au/engage/alumni/alumni-enewsletter" tabindex="-1">Alumni newsletter</a>
+                                        </li>
+                                       
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div id="industry-and-partnerships-promo" class="megamenu__tab__promo hidden-lg-down" style="background-image: url(https://cms.qut.edu.au/__data/assets/image/0008/1396538/megamenu-engage-oaa.png);">
+                <div class="promo-caption">
+                    <a class="arrow-link invert" href="https://www.qut.edu.au/engage/alumni/oaa">Meet our outstanding alumni</a>
+                    <p>See the diverse achievements and impact of alumni who are leaders in their professions and communities.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="megamenu__tab megamenu__tab--wide-promo" id="about-menu" data-mega-tab="">
+    <div style="position: relative;">
+        <a href="https://www.qut.edu.au/about" id="aboutLink" class="megamenu__tab__link  "><span>About<span class="hidden-md-down"> QUT</span></span></a>
+        <button id="btnAboutMenu" class="megamenu__tab__link__focusicon" aria-expanded="false" aria-label="Show" aria-labelledby="btnAboutMenu aboutLink"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></button>
+    </div>
+    <div class="megamenu__tab__dropdown">
+        <div class="megamenu__tab__contents">
+            <div class="megamenu__subtab__wrapper">
+                
+                <div class="megamenu__subtab megamenu__subtab--current">
+                    <div style="position: relative; display: flex; flex-grow: inherit;">
+                        <a id="ourUniLink" class="megamenu__subtab__link megamenu__subtab__link--current" href="https://www.qut.edu.au/about" tabindex="0"><span>Discover QUT</span></a>
+                        <button id="btnOurUniMenu" class="megamenu__subtab__link__focusicon" aria-expanded="false" aria-label="Show" aria-labelledby="btnOurUniMenu ourUniLink"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 29.608 50" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="29.608,24.999 27.303,22.694 24.998,20.387 24.997,20.388 4.609,0 0,4.609 20.388,24.997 0,45.386 4.609,50 
+	29.608,25 29.607,24.999 "></polygon>
+</svg></button>
+                    </div>
+                    <div class="megamenu__subtab__content__wrapper">
+                        <div class="megamenu__subtab__content" aria-hidden="true">
+                            <div class="column col-md">
+                                
+                                <button id="aboutOurUniButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnAboutOurUni aboutOurUni">                                
+                                    <h4 id="aboutOurUni" class="column__header">About us</h4>
+                                    <div id="btnAboutOurUni" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <ul class="arrow-links column-2-desktop" aria-labelledby="Discover-QUT-About-us">
+                                        <li><a href="https://www.qut.edu.au/about/our-university" tabindex="-1">Our university</a>
+                                        <p>Learn more about our history, campuses and facilities, leadership team, organisational structure, and governance and policies.</p>
+                                        </li>
+                                        <li><a href="https://www.qut.edu.au/about/faculties-and-schools" tabindex="-1">Faculties and schools</a>
+                                        <p>Explore our faculties and schools and the real-world learning experiences and research they are engaged in.</p>
+                                        </li>
+                                        <li><a href="https://www.qut.edu.au/connections" tabindex="-1">Strategy</a>
+                                        <p><em>Connections - the QUT Strategy 2023 to 2027</em> sets out our shared purpose for the future of the university: to provide transformative education, student experiences and research relevant to our community</p>
+                                        </li>
+                                        <li><a href="https://www.qut.edu.au/about/indigenous" tabindex="-1">Indigenous Australians</a>
+                                        <p>We're embedding Indigenous Australian cultures, knowledges and perspectives across everything we do.</p>
+                                        </li>
+                                        <li><a href="https://www.qut.edu.au/about/priorities" tabindex="-1">Priorities</a>
+                                        <p>We are working to improve our society and environment through our commitment to equity, diversity, inclusion, creativity, sustainability and improving health and wellbeing.</p>
+                                        </li>
+                                        <li><a href="https://www.qut.edu.au/about/achievements-and-recognition" tabindex="-1">Achievements and recognition</a>
+                                        <p>As one of Australia's leading universities, we are internationally recognised through rankings, and we are committed to celebrating staff and student successes.</p>
+                                        </li>
+                                        <li><a href="https://www.qut.edu.au/careers" tabindex="-1">Working at QUT</a>
+                                        <p>Find job opportunities and learn more about working at QUT.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="megamenu__subtab">
+                    <div style="position: relative; display: flex; flex-grow: inherit;">
+                        <a id="campusesLink" class="megamenu__subtab__link" href="https://www.qut.edu.au/about/campuses-and-facilities" tabindex="0"><span>Campuses and<br> venues</span></a>
+                        <button id="btnCampusesMenu" class="megamenu__subtab__link__focusicon" aria-expanded="false" aria-label="Show" aria-labelledby="btnCampusesMenu campusesLink"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 29.608 50" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="29.608,24.999 27.303,22.694 24.998,20.387 24.997,20.388 4.609,0 0,4.609 20.388,24.997 0,45.386 4.609,50 
+	29.608,25 29.607,24.999 "></polygon>
+</svg></button>
+                    </div>
+                    <div class="megamenu__subtab__content__wrapper">
+                        <div class="megamenu__subtab__content" aria-hidden="true">
+                            <div class="column col-md">
+                                
+                                <button id="campusGPButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnCampusGP campusGP">                                
+                                    <h4 id="campusGP" class="column__header">Gardens Point campus</h4>
+                                    <div id="btnCampusGP" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <ul class="arrow-links" aria-labelledby="campusGP">
+                                        <li><a href="https://www.qut.edu.au/about/campuses-and-facilities/maps-and-getting-here/gardens-point" tabindex="-1">Maps and getting here</a></li>
+                                        <li><a href="https://www.qut.edu.au/about/campuses-and-facilities/gardens-point-campus/around-campus" tabindex="-1">Around campus</a></li>
+                                        <li><a href="https://www.qut.edu.au/about/campuses-and-facilities/gardens-point-campus/libraries-and-learning-spaces" tabindex="-1">Libraries and learning spaces</a></li>
+                                        <li><a href="https://www.qut.edu.au/about/campuses-and-facilities/sports-and-recreational-facilities" tabindex="-1">Gym and sports facilities</a></li>
+                                        <li><a href="https://www.qut.edu.au/about/campuses-and-facilities/gardens-point-campus/food-and-retail" tabindex="-1">Food and retail</a></li>
+                                    </ul>
+                                </div>
+                                
+                                <button id="campusKGButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnCampusKG campusKG">                                
+                                    <h4 id="campusKG" class="column__header">Kelvin Grove campus</h4>
+                                    <div id="btnCampusKG" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <ul class="arrow-links" aria-labelledby="campusKG">
+                                        <li><a href="https://www.qut.edu.au/about/campuses-and-facilities/maps-and-getting-here/kelvin-grove" tabindex="-1">Maps and getting here</a></li>
+                                        <li><a href="https://www.qut.edu.au/about/campuses-and-facilities/kelvin-grove-campus/around-campus" tabindex="-1">Around campus</a></li>
+                                        <li><a href="https://www.qut.edu.au/about/campuses-and-facilities/kelvin-grove-campus/libraries-and-learning-spaces" tabindex="-1">Libraries and learning spaces</a></li>
+                                        <li><a href="https://www.qut.edu.au/about/campuses-and-facilities/sports-and-recreational-facilities" tabindex="-1">Gym and sports facilities</a></li>
+                                        <li><a href="https://www.qut.edu.au/about/campuses-and-facilities/kelvin-grove-campus/food-and-retail" tabindex="-1">Food and retail</a></li>
+                                    </ul>
+                                    <div class="column__content mega-alert-blue">
+                                        <ul class="arrow-links">
+                                            <li><a href="https://www.qut.edu.au/additional/coronavirus" class="small" tabindex="-1">COVID-19 latest advice</a></li>
+                                        </ul>
+                                    </div>                                      
+                                </div>                                 
+                            </div>
+                            
+                            <div class="column col-md">
+                                
+                                <button id="publicVenuesButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnPublicVenues publicVenues">                                
+                                    <h4 id="publicVenues" class="column__header">Public venues</h4>
+                                    <div id="btnPublicVenues" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <ul class="arrow-links" aria-labelledby="publicVenues">
+                                        <li><a href="http://www.artmuseum.qut.edu.au" tabindex="-1">QUT Art Museum</a></li>
+                                        <li><a href="https://www.wrgallery.qut.edu.au/" tabindex="-1">William Robinson Gallery</a></li>
+                                        <li><a href="https://www.qut.edu.au/about/campuses-and-facilities/public-venues/science-and-engineering-centre" tabindex="-1">Science and Engineering Centre</a></li>
+                                        <li><a href="https://www.thecube.qut.edu.au/" tabindex="-1">The Cube</a></li>
+                                        <li><a href="https://www.qut.edu.au/about/campuses-and-facilities/public-venues/old-government-house" tabindex="-1">Old Government House</a></li>
+                                        <li><a href="https://www.qut.edu.au/about/campuses-and-facilities/public-venues/gardens-theatre" tabindex="-1">Gardens Theatre</a></li>
+                                        <li><a href="https://www.qut.edu.au/about/campuses-and-facilities/public-venues/education-precinct" tabindex="-1">Education Precinct</a></li>
+                                        <li><a href="https://www.qut.edu.au/about/campuses-and-facilities/public-venues/creative-industries-precinct" tabindex="-1">Creative Industries Precinct</a></li>
+                                    </ul>
+                                </div>
+                                
+                  
+                                <button id="campusExperiencesButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnCampusExperiences campusExperiences">                                
+                                    <h4 id="campusExperiences" class="column__header">Campus experiences</h4>
+                                    <div id="btnCampusExperiences" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <ul class="arrow-links" aria-labelledby="campusExperiences">
+                                        <li><a href="https://www.qut.edu.au/about/campuses-and-facilities/virtual-tours" tabindex="-1">Virtual tours</a></li>
+                                        <li><a href="https://www.qut.edu.au/about/campuses-and-facilities/science-360-experience" tabindex="-1">Science in 360°</a></li>
+                                        <li><a href="https://www.qut.edu.au/about/campuses-and-facilities/virtual-reality" tabindex="-1">Virtual reality projects</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="megamenu__subtab">
+                    <div style="position: relative; display: flex; flex-grow: inherit;">
+                        <a id="newsLink" class="megamenu__subtab__link" href="https://www.qut.edu.au/news" tabindex="0"><span>News and events</span></a>
+                        <button id="btnNewsMenu" class="megamenu__subtab__link__focusicon" aria-expanded="false" aria-label="Show" aria-labelledby="btnNewsMenu newsLink"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 29.608 50" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="29.608,24.999 27.303,22.694 24.998,20.387 24.997,20.388 4.609,0 0,4.609 20.388,24.997 0,45.386 4.609,50 
+	29.608,25 29.607,24.999 "></polygon>
+</svg></button>
+                    </div>
+                    <div class="megamenu__subtab__content__wrapper">
+                        <div class="megamenu__subtab__content" aria-hidden="true">
+                            <div class="column col-md">
+                                
+                                <button id="newsBySubjectButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnNewsBySubject newsBySubject">                                
+                                    <h4 id="newsBySubject" class="column__header">News by subject</h4>
+                                    <div id="btnNewsBySubject" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <ul class="arrow-links" aria-labelledby="newsBySubject">
+                                        <li><a href="https://www.qut.edu.au/news" class="large" tabindex="-1">All QUT news</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/business-news" class="small" tabindex="-1">Business</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/creative-arts-news" class="small" tabindex="-1">Creative industries</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/education-news" class="small" tabindex="-1">Education</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/engineering-news" class="small" tabindex="-1">Engineering</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/health/news" class="small" tabindex="-1">Health</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/law-news" class="small" tabindex="-1">Law</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/science-news-and-events" class="small" tabindex="-1">Science</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/justice-news" class="small" tabindex="-1">Justice</a></li>
+                                        <li><a href="https://www.qut.edu.au/news/realfocus" class="small" tabindex="-1">Real Focus</a></li>
+                                        <li><a href="https://www.qut.edu.au/engage/alumni/news-and-stories" class="small" tabindex="-1">Alumni</a></li>
+                                    </ul>
+                                    <div class="column__content mega-alert-blue">
+                                        <ul class="arrow-links">
+                                            <li><a href="https://www.qut.edu.au/additional/coronavirus" class="small" tabindex="-1">COVID-19 latest advice</a></li>
+                                        </ul>
+                                    </div>                                    
+                                </div>
+                            </div>
+                            
+                            <div class="column col-md">
+                                
+                                <button id="eventsBySubjectButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnEventsBySubject eventsBySubject">                                
+                                    <h4 id="eventsBySubject" class="column__header">Events by subject</h4>
+                                    <div id="btnEventsBySubject" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <ul class="arrow-links" aria-labelledby="eventsBySubject">
+                                        <li><a href="https://www.qut.edu.au/events" class="large" tabindex="-1">All QUT events</a></li>
+                                        <li><a href="https://www.qut.edu.au/engage/alumni/events" class="small" tabindex="-1">Alumni</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/business-news" class="small" tabindex="-1">Business</a></li>
+                                        <li><a href="https://www.qut.edu.au/study/international/events" class="small" tabindex="-1">International</a></li>
+                                    </ul>
+                                </div>
+                                
+                                <button id="ourSpecialistsButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnOurSpecialists ourSpecialists">                                
+                                    <h4 id="ourSpecialists" class="column__header">Our specialists</h4>
+                                    <div id="btnOurSpecialists" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <ul class="arrow-links" aria-labelledby="ourSpecialists">
+                                        <li><a href="http://staff.qut.edu.au/" tabindex="-1">Staff profiles</a></li>
+                                        
+                                    </ul>
+                                </div>
+                                
+                                <button id="mediaContactButton" class="column__header__button" tabindex="-1" aria-expanded="false" aria-label="Show" style="position: relative;" aria-labelledby="btnMediaContact mediaContact">                                
+                                    <h4 id="mediaContact" class="column__header">Media team contact</h4>
+                                    <div id="btnMediaContact" class="megamenu__subtab__link__mobileIcon hidden-md-up"><!--?xml version="1.0" encoding="utf-8"?-->
+<svg viewBox="0 0 50 29.608" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="25.001 29.585 27.306 27.28 29.613 24.975 29.612 24.974 50 4.586 45.391 -0.023 25.003 20.365 4.614 -0.023 0 4.586 25 29.585 25.001 29.584" "=""></polygon>
+</svg></div>
+                                </button>
+                                <div class="column__content">
+                                    <ul class="media-links">
+                                        <li>Email: <a href="mailto:media@qut.edu.au" tabindex="-1">media@qut.edu.au</a></li>
+                                        <li>Phone: <a href="tel:+61 7 3138 2361" tabindex="-1">+ 61 7 3138 2361</a></li>
+                                    </ul>
+                                </div>                                
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div id="news-and-events-promo" class="megamenu__tab__promo hidden-lg-down" style="background-image: url(https://cms.qut.edu.au/__data/assets/image/0015/1401018/megamenu-virtual-tour.jpg
+">
+                <div class="promo-caption">
+                    <a class="arrow-link invert" href="https://www.qut.edu.au/about/campuses-and-facilities/virtual-tours">Take a tour</a>
+                    <p>Explore the campus with 360⁰ videos and 3D tours of our facilities.
+</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="qut-online-link" class="megamenu__promo__button">
+    <a href="https://www.qut.edu.au/study/online" class="megamenu__tab__link megamenu__tab__link--promo"><span>QUT Online</span></a>
+</div>
+
+<div id="mobile-menu-promo" class="hidden-md-up megamenu__mobile__promo d-none" style="background-image: url(https://cms.qut.edu.au/__data/assets/image/0010/1249066/mms-carousel.jpg); height: calc(576px);">
+	<div class="megamenu__mobile__promo__caption">
+		<a class="arrow-link invert" id="mobile-mega-menu-promo-arrow-link" href="https://www.qut.edu.au/study/match-my-skills">Match My Skills</a>
+		<p>Find your future with QUT's Match My Skills quiz. Create a personalised guide to reaching your dream career. It takes just 10 minutes.
+</p>
+	</div>
+</div>
+
+<style type="text/css">
+    #qut-online-link a { /*https://www.qut.edu.au/study/need-advice*/
+        background-color: #009de0;
+        /*color: white;*/
+        /*font-size: 18px;*/
+        /*line-height: 4rem;*/
+        /*font-weight: 800;*/
+        /*display: block;*/
+        padding: 0 1.5rem;        
+    }
+
+    #qut-online-link a:hover {
+        background-color: white;
+        color: #00467f !important;
+        text-decoration: none;
+    }
+        
+    @media (min-width: 990px) {
+        #qut-online-link a {
+            position: absolute;
+            right: 25%;
+            top: 0;
+        }
+    }
+    
+    @media (max-width: 767px) {
+        #qut-online-link {
+            width: 100%;
+            border-bottom: 1px solid white;
+        }
+        
+        #qut-online-link a::after {
+            content: none;
+        }
+        #global-search-form-md { /* third search form hidden in mobile  */
+            display: none;
+        } 
+        #global-search-form .header__searchbox__submit {
+            display: none;
+        }
+    }
+</style>
+            
+            <form id="desktop-global-search-form" role="search" action="https://qutvirtual4.qut.edu.au/web/qut" method="get" name="search" class="header__searchbox searchbox--flat d-none d-lg-flex hidden-md-down">
+                <input name="profile" type="hidden" value="CONTENT">
+                <input name="params.site" type="hidden" value="www.qut.edu.au">
+                <label for="desktop-global-search-query" class="sr-only">Search</label>
+                <input class="header__searchbox__input" id="desktop-global-search-query" name="params.query" type="text" placeholder="Search">
+                <input class="header__searchbox__submit" src="//www.qut.edu.au/__data/assets/file/0003/711678/search-white.svg" type="image" alt="Search"> 
+            </form>
+        </div>
+    </nav>
+    <div class="megamenu__overlay" style="top: 154.5px !important;"></div>
+    
+    <div class="header__mobile__audience header__mobile-audience panel-dark-blue hidden-xs-up d-lg-none hidden-lg-up">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-xs-12">
+    				<a href="#" class="header__mobile__audience__link personalise-link show-modal">
+    					<span class="">Personalise your journey</span>
+    				</a>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+</header>
+<script>
+    QUT.Megamenu.init(); // Don't wait for ready
+</script>
+
+        
+        
+        
+        
+
+
+
+
+<style>.hero__header .hero__header__bg {
+ background-image: url("https://cms.qut.edu.au/__data/assets/image/0008/857204/building-planning-stem-study-area-bg-2019.jpg");
+}</style>
+
+<div class="secondlevel__page hero__header">
+ <div class="hero__header__bg"></div>
+
+ <div class="hero__header__container container">
+ <h1 class="hero__header__title"><span>CAB301 Algorithms and Complexity</span></h1>
+ </div>
+ <div class="container">
+ <div class="col-lg-10 col-md-11 hero__header__blurb">
+ <div class="blurb-content">
+ This unit teaches you the fundamental principles used to assess the efficiency of software algorithms, allowing you to distinguish solutions that can process large amounts of data or perform complex calculations effectively from those that run unacceptably slowly or not at all. In this unit you will examine a range of different algorithms, review the principles used to predict their efficiency and perform empirical measurements of specific algorithms to confirm the theoretical predictions.
+ </div>
+ </div>
+ </div>
+</div>        
+        
+        
+        
+        
+    </div>
+   
+   <!-- Menu & section heading generation were here --> 
+   
+    
+    
+    <!--endnoindex-->
+
+    <div id="page-head">
+        
+                    <!-- Breadcrumbs -->
+            <nav aria-label="Breadcrumb">
+                <div role="navigation" id="breadcrumb">
+                    <div class="container">
+                        
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb__item breadcrumb__item--home">
+                                <a href="https://www.qut.edu.au" title="Go to homepage"><span>Home</span></a>
+                            </li>
+                                                            <li class="breadcrumb__item id-716638">
+                                    <a href="https://www.qut.edu.au/study">Study</a>
+                                </li>
+                                                        <li aria-current="page" class="breadcrumb__item breadcrumb__item--active id-863751">Unit - CAB301</li>
+                            
+                        </ol>
+                    </div>
+                </div>
+            </nav>
+            <!-- #Breadcrumbs -->
+                
+        
+        <!-- Left col snippet was here -->
+    
+        
+        
+    </div>
+    
+
+    
+    
+    <div id="content" role="main" class="id-863751">
+        
+        
+        
+        
+
+
+ <div class="full-panel content-panel panel-white">
+ <div class="container">
+ <div class="row">
+ <div class="panel-content col-lg-12">
+ 
+ <h2 id="unit-information">Unit information</h2>
+ 
+ <dl class="row">
+ <dt class="col-sm-6 col-md-4 col-lg-3">Unit code</dt>
+ <dd class="col-sm-6 col-md-8 col-lg-9">CAB301</dd>
+ 
+ 
+ <dt class="col-sm-6 col-md-4 col-lg-3">Faculty</dt>
+ <dd class="col-sm-6 col-md-8 col-lg-9">Faculty of Science</dd>
+ 
+ 
+ 
+ <dt class="col-sm-6 col-md-4 col-lg-3">School/Discipline</dt>
+ <dd class="col-sm-6 col-md-8 col-lg-9">School of Computer Science</dd>
+ 
+ 
+ 
+ <dt class="col-sm-6 col-md-4 col-lg-3">Study area</dt>
+ <dd class="col-sm-6 col-md-8 col-lg-9">Science</dd>
+ 
+ 
+ <dt class="col-sm-6 col-md-4 col-lg-3">Credit points</dt>
+ <dd class="col-sm-6 col-md-8 col-lg-9">12</dd>
+ </dl>
+ 
+ 
+ <h2 id="dates-and-locations">Dates and locations</h2>
+ <table class="table table-bordered table-striped">
+ <thead>
+ <tr>
+ <th>Teaching period</th>
+ <th>Dates</th>
+ <th>Locations</th>
+ </tr>
+ </thead>
+ 
+ <tbody>
+ 
+ <tr>
+ <td>
+ <strong>Semester 1, 2025</strong>
+ </td>
+ <td>
+ 24 February 2025 - 21 June 2025
+ </td>
+ <td>
+ Gardens Point<br>Gardens Point (Online)
+ </td>
+ </tr>
+ 
+ </tbody>
+ </table>
+ 
+ <a class="arrow-link" href="https://qutvirtual3.qut.edu.au/qvpublic/ttab_unit_search_p.process_teach_period_search?p_unit_cd=CAB301">
+ See all available class timetables for this unit
+ </a>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <h2 id="fees">Fees</h2>
+ 
+ 
+ 
+ 
+ <dl class="row">
+ 
+ 
+ 
+ <dt class="col-sm-12">Commonwealth supported place (CSP) student contribution amount</dt>
+ <dd class="col-sm-12"><strong>2025</strong>: $1,164</dd>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <dt class="col-sm-12">Domestic fee-paying student fee</dt>
+ <dd class="col-sm-12"><strong>2025</strong>: $4,356</dd>
+ 
+ 
+ 
+ 
+ 
+ <dt class="col-sm-12">International student fee (excluding study abroad students)</dt>
+ <dd class="col-sm-12"><strong>2025</strong>: $5,172</dd>
+ 
+ 
+ </dl>
+ 
+ 
+ <a class="arrow-link" href="https://www.qut.edu.au/study/applying/study-abroad-and-exchange/study-abroad">Find out more about costs for study abroad students</a>.
+ 
+ 
+ <h3 class="mb-0 mt-1" id="guide-to-fees-heading">
+ <a href="#guide-to-fees" class="show-hide" data-toggle="collapse" aria-expanded="false" aria-controls="guide-to-fees">
+ Guide to fees
+ </a>
+ </h3>
+ 
+ <div id="guide-to-fees" class="show-hide-content collapse show-hide-contents">
+ <dl class="dl-unstyled">
+ <dt>Commonwealth supported place (CSP) student contribution amount</dt>
+ <dd>For Australian citizens, permanent visa holders and permanent humanitarian visa holders, and New Zealand citizens who study this unit:</dd>
+ <dd>
+ <ul>
+ <li>as part of a QUT course and are eligible for a <a href="https://www.qut.edu.au/study/fees-and-scholarships/government-loans">Commonwealth supported place (CSP)</a></li>
+ <li>as a cross-institutional student who has a Commonwealth supported place at their home university.</li>
+ </ul>
+ </dd>
+ <dt>Domestic fee-paying student fee</dt>
+ <dd>
+ For Australian citizens, permanent visa holders and permanent humanitarian visa holders, and New Zealand citizens, who study this unit:
+ <ul>
+ <li>as part of a QUT course and are not eligible for a Commonwealth supported place (CSP)</li>
+ <li>as a cross-institutional student who does not have a Commonwealth supported place at their home university</li>
+ <li>as a single-unit study student.</li>
+ </ul>
+ </dd>
+ <dt>International student fee</dt>
+ <dd>
+ For international students who study this unit:
+ <ul>
+ <li>as part of a QUT course</li>
+ <!--<li>as part of our study abroad or exchange programs</li>-->
+ <li>as a cross-institutional student.</li>
+ </ul>
+ </dd>
+ </dl>
+ </div>
+ 
+ 
+ 
+ 
+ <h2 id="previous-study-requirements-heading">Previous study requirements</h2>
+ <dl class="row">
+ 
+ <dt class="col-sm-6 col-md-4 col-lg-3">Prerequisites</dt>
+ <dd class="col-sm-6 col-md-8 col-lg-9">(
+<a href="https://www.qut.edu.au/study/unit?unit=CAB201" target="_blank">CAB201</a> or ITD121)</dd>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <dt class="col-sm-6 col-md-4 col-lg-3">Equivalents</dt>
+ <dd class="col-sm-6 col-md-8 col-lg-9">INB371</dd>
+ 
+ 
+ 
+ 
+ 
+ </dl>
+ 
+ 
+ <h3 class="mb-0 mt-1" id="guide-to-previous-study-requirements">
+ <a class="show-hide" href="#previous-study-requirements" data-toggle="collapse" aria-expanded="false" aria-controls="previous-study-requirements">
+ Guide to previous study requirements
+ </a>
+ </h3>
+ 
+ <div id="previous-study-requirements" class="show-hide-contents collapse">
+ <dl class="row">
+ <dt class="col-sm-12">Prerequisites</dt>
+ <dd class="col-sm-12">To enrol in this unit, you must have completed these prerequisite units (or have credit, advanced standing or exemption for them), or be able to demonstrate that you have equivalent background knowledge.</dd>
+ 
+ <dt class="col-sm-12">Anti-requisites</dt>
+ <dd class="col-sm-12">You can’t enrol in this unit if you have completed any of these anti-requisite units.</dd>
+ 
+ <dt class="col-sm-12">Co-requisites</dt>
+ <dd class="col-sm-12">To enrol in this unit, you must have already completed these co-requisite units, or you must enrol in them at the same time.</dd>
+ 
+ <dt class="col-sm-12">Equivalents</dt>
+ <dd class="col-sm-12">You can’t enrol in this unit if you have completed any of these equivalent units.</dd>
+ 
+ <dt class="col-sm-12">Assumed knowledge</dt>
+ <dd class="col-sm-12">We assume that you have a minimum level of knowledge in certain areas before you start this unit.</dd>
+ </dl>
+ </div>
+ 
+ </div>
+
+ 
+ 
+ </div>
+ </div>
+ </div>
+
+
+<div class="full-panel content-panel panel-light-blue unit-outlines">
+    <div class="container">
+        <div class="row">
+            
+            <div class="panel-content col-lg-12">
+                <h2 id="unit-outlines">Unit outlines</h2>
+                
+                <div class="row">
+                    <!-- loading message -->
+                    
+                    
+                    <!-- ajax root -->
+                    <div class="col-lg-12 unit-outlines-container collapse in">
+                
+                        <div class="content-highlight thin dark-blue-element" data-animation="fadeInUpSmall">
+                            Offer of some units is subject to viability, and information in these Unit Outlines is subject to change prior to commencement of the teaching period.
+                        </div>
+                
+                        <!-- legacy outlines (ajax content only) -->
+                        
+                        
+                        <!-- courseloop outlines (100% ajax) -->
+                        
+                    
+ <h3 class="mb-0 mt-1">
+ <a class="show-hide" data-animation="fadeInUpSmall" href="#subject-offering-7f58614b933786504b96bfca6aba103d" data-toggle="collapse" aria-expanded="false" aria-controls="subject-offering-7f58614b933786504b96bfca6aba103d">
+ Semester 1, 2025 - Gardens Point (Internal)
+ </a>
+ </h3>
+ 
+ <div class="show-hide-contents collapse" id="subject-offering-7f58614b933786504b96bfca6aba103d">
+ <h4>Overview</h4>
+ <p>This unit teaches you the fundamental principles used to assess the efficiency of software algorithms, allowing you to distinguish solutions that can process large amounts of data or perform complex calculations effectively from those that run unacceptably slowly or not at all. In this unit you will examine a range of different algorithms, review the principles used to predict their efficiency and perform empirical measurements of specific algorithms to confirm the theoretical predictions.</p>
+ 
+ <h4>Learning outcomes</h4>
+ <p>On successful completion of this unit you will be able to:</p>
+ <ul>
+ 
+ <li>
+ Explain the profound importance of efficiency and its effect on the feasibility of a solution
+ </li>
+ 
+ <li>
+ Analyse the time efficiently of algorithms using both theoretical and empirical means
+ </li>
+ 
+ <li>
+ Integrate a range of well-known classes of data structures and algorithms to solve real world software problems
+ </li>
+ 
+ <li>
+ Design novel algorithms for solving complex computational problems.
+ </li>
+ 
+ <li>
+ Write a technical report that meets industry standards for a specialist audience.
+ </li>
+ 
+ </ul>
+ 
+ <h4>Learning approaches</h4>
+ <p>This unit is available for you to study in either on-campus or online mode. You can expect to spend 10 hours per week involved in preparing for and attending scheduled classes, preparing and completing assessment tasks as well as independent study and consolidation of your learning.</p>
+<p>This unit provides an engaging mix of theory and artefact-driven practice. The principles of algorithm design and performance prediction are presented via a range of examples. This theory is then reinforced through a problem solving task and a paired project which require you to compare theoretical predictions with actual behaviour and to reflect on the reasons for any differences found.</p>
+ 
+ <h4>Feedback on learning and assessment</h4>
+ <p>You will receive formative feedback in class. Summative and formative feedback will be supplied for the assignments. Summative feedback will be provided via the examination. You will also be required to communicate the results of your technical work in a form easily understood by your peers.</p>
+ 
+ <h4>Assessment</h4>
+ 
+ <p>Although founded in theory, this unit emphasises complementary practical skills. In particular, the assignments (problem solving task and project) provide a clear link between theory and practice. You are required to be self-sufficient in implementing computer programs given detailed algorithmic descriptions.</p>
+ 
+ 
+ <h5>Assessment 1: Assignment 1</h5>
+ <p></p><p>This assignment is to assess your knowledge about linear data structures and algorithms and your skills in applying the knowledge in the development of reusable Abstract Data Types (ADTs).</p>
+<p>In this assignment, you will be given the specifications of two to three ADT specifications in C# interfaces. Your job is to implement the ADT specifications using specified linear data structures and algorithms. You also need to design efficient algorithms to solve some computational problems arising in the implementation of those operations in the ADT specifications and analyse the time efficiency of the algorithms.</p>
+<p>This is an assignment for the purposes of an extension.</p><p></p>
+ 
+ <h5>Assessment 2: Assignment 2</h5>
+ <p></p><p>This assignment is to assess your knowledge about nonlinear data structures and algorithms and your skills in applying the knowledge in the development of reusable Abstract Data Types (ADTs).</p>
+<p>In this assignment, you will be given the specifications of two to three ADT specifications in C# interfaces. Your job is to implement the ADT specifications using specified nonlinear data structures and algorithms. You also need to design efficient algorithms to solve some computational problems arising in the implementation of those operations in the ADT specifications and analyse the time efficiency of the algorithms.</p><p></p>
+ 
+ <h5>Assessment 3: Project</h5>
+ <p></p><p>This assignment is to assess your knowledge about data structures and algorithms and your skills in applying the knowledge in a real-world software development project.</p>
+<p>In this assignment, you may need to use the ADTs that you developed in Assignment 1 and/or Assignment 2, and you may also need to develop some new ADTs and use the ADTs in the software development.&nbsp; In addition, in this assignment you need to design efficient algorithms to solve some computational problems in the software development and empirically analyse the time efficiency of the algorithms that you designed.</p>
+<p>This is an assignment for the purposes of an extension.</p><p></p>
+ 
+ 
+ </div>
+
+ <h3 class="mb-0 mt-1">
+ <a class="show-hide" data-animation="fadeInUpSmall" href="#subject-offering-b758614b933786504b96bfca6aba103d" data-toggle="collapse" aria-expanded="false" aria-controls="subject-offering-b758614b933786504b96bfca6aba103d">
+ Semester 1, 2025 - Online (Online)
+ </a>
+ </h3>
+ 
+ <div class="show-hide-contents collapse" id="subject-offering-b758614b933786504b96bfca6aba103d">
+ <h4>Overview</h4>
+ <p>This unit teaches you the fundamental principles used to assess the efficiency of software algorithms, allowing you to distinguish solutions that can process large amounts of data or perform complex calculations effectively from those that run unacceptably slowly or not at all. In this unit you will examine a range of different algorithms, review the principles used to predict their efficiency and perform empirical measurements of specific algorithms to confirm the theoretical predictions.</p>
+ 
+ <h4>Learning outcomes</h4>
+ <p>On successful completion of this unit you will be able to:</p>
+ <ul>
+ 
+ <li>
+ Explain the profound importance of efficiency and its effect on the feasibility of a solution
+ </li>
+ 
+ <li>
+ Analyse the time efficiently of algorithms using both theoretical and empirical means
+ </li>
+ 
+ <li>
+ Integrate a range of well-known classes of data structures and algorithms to solve real world software problems
+ </li>
+ 
+ <li>
+ Design novel algorithms for solving complex computational problems.
+ </li>
+ 
+ <li>
+ Write a technical report that meets industry standards for a specialist audience.
+ </li>
+ 
+ </ul>
+ 
+ <h4>Learning approaches</h4>
+ <p>This unit is available for you to study in either on-campus or online mode. You can expect to spend 10 hours per week involved in preparing for and attending scheduled classes, preparing and completing assessment tasks as well as independent study and consolidation of your learning.</p>
+<p>This unit provides an engaging mix of theory and artefact-driven practice. The principles of algorithm design and performance prediction are presented via a range of examples. This theory is then reinforced through a problem solving task and a paired project which require you to compare theoretical predictions with actual behaviour and to reflect on the reasons for any differences found.</p>
+ 
+ <h4>Feedback on learning and assessment</h4>
+ <p>You will receive formative feedback in class. Summative and formative feedback will be supplied for the assignments. Summative feedback will be provided via the examination. You will also be required to communicate the results of your technical work in a form easily understood by your peers.</p>
+ 
+ <h4>Assessment</h4>
+ 
+ <p>Although founded in theory, this unit emphasises complementary practical skills. In particular, the assignments (problem solving task and project) provide a clear link between theory and practice. You are required to be self-sufficient in implementing computer programs given detailed algorithmic descriptions.</p>
+ 
+ 
+ <h5>Assessment 1: Assignment 1</h5>
+ <p></p><p>This assignment is to assess your knowledge about linear data structures and algorithms and your skills in applying the knowledge in the development of reusable Abstract Data Types (ADTs).</p>
+<p>In this assignment, you will be given the specifications of two to three ADT specifications in C# interfaces. Your job is to implement the ADT specifications using specified linear data structures and algorithms. You also need to design efficient algorithms to solve some computational problems arising in the implementation of those operations in the ADT specifications and analyse the time efficiency of the algorithms.</p>
+<p>This is an assignment for the purposes of an extension.</p><p></p>
+ 
+ <h5>Assessment 2: Assignment 2</h5>
+ <p></p><p>This assignment is to assess your knowledge about nonlinear data structures and algorithms and your skills in applying the knowledge in the development of reusable Abstract Data Types (ADTs).</p>
+<p>In this assignment, you will be given the specifications of two to three ADT specifications in C# interfaces. Your job is to implement the ADT specifications using specified nonlinear data structures and algorithms. You also need to design efficient algorithms to solve some computational problems arising in the implementation of those operations in the ADT specifications and analyse the time efficiency of the algorithms.</p><p></p>
+ 
+ <h5>Assessment 3: Project</h5>
+ <p></p><p>This assignment is to assess your knowledge about data structures and algorithms and your skills in applying the knowledge in a real-world software development project.</p>
+<p>In this assignment, you may need to use the ADTs that you developed in Assignment 1 and/or Assignment 2, and you may also need to develop some new ADTs and use the ADTs in the software development.&nbsp; In addition, in this assignment you need to design efficient algorithms to solve some computational problems in the software development and empirically analyse the time efficiency of the algorithms that you designed.</p>
+<p>This is an assignment for the purposes of an extension.</p><p></p>
+ 
+ 
+ </div>
+</div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div><script>
+QUT.unit = QUT.unit || {};
+QUT.unit.details = {"attributes":{"DGCIF":"Available for cross institutional students - faculty approval required","ITBUNI":"Information Technology UG - Uni Wide Units","LEW3FAC":"Late Enrolment - Available for enrolment Week 3 - faculty approval required","DGSAF":"Study Abroad / Exchange (UG) - faculty approval required","DGNAF":"Available for Single Unit students (UG) - faculty approval required"},"study-types":["Cross-institutional study","Single-unit study"],"availabilities":[{"study-mode":"All","attendance-mode":"Internal","location":"Gardens Point","campus":"Gardens Point","study-period":"Semester 1","date-end":"2025-06-20T14:00Z","date-start":"2025-02-23T14:00Z","year":2025},{"study-mode":"All","attendance-mode":"Online","location":"Online","campus":"Gardens Point","study-period":"Semester 1","date-end":"2025-06-20T14:00Z","date-start":"2025-02-23T14:00Z","year":2025}],"broad-study-area":{"name":"Science","foe":20109},"code":"CAB301","credit-points":12,"fees":[{"csp":"$1,164","dom":"$4,356","int":"$5,172","year":2025}],"faculty":{"code":460100,"title-short":"Science","title-full":"Faculty of Science"},"school-discipline":{"code":460600,"title-short":"Computer Science","title-full":"School of Computer Science"},"unit-requisites":{"equiv":"INB371","pre":"(\n<a href=\"https://www.qut.edu.au/study/unit?unit=CAB201\" target=\"_blank\">CAB201</a> or ITD121)"},"sams-version":2,"summer":[],"synopsis":"This unit teaches you the fundamental principles used to assess the efficiency of software algorithms, allowing you to distinguish solutions that can process large amounts of data or perform complex calculations effectively from those that run unacceptably slowly or not at all. In this unit you will examine a range of different algorithms, review the principles used to predict their efficiency and perform empirical measurements of specific algorithms to confirm the theoretical predictions.","title-full":"CAB301 Algorithms and Complexity","title-short":"Algorithms and Complexity","url":{"current":"https://qutvirtual4.qut.edu.au/group/student/enrolment/units/unit?unitCode=CAB301&amp;year=2025","prospective":"https://www.qut.edu.au/study/unit?unitCode=CAB301","timetable":"https://qutvirtual3.qut.edu.au/qvpublic/ttab_unit_search_p.process_teach_period_search?p_unit_cd=CAB301"},"year":2025,"years":[2025]};
+</script>
+<script>
+$(document).ready(function loadUnitOutlines(){
+
+    var $promises = [];
+    var $outlines_container = $('.unit-outlines-container');
+    var t_courseloop_outline = _.template("<% if (!outline.err) { %>\r\n <h3>\r\n <a class=\"show-hide\" data-animation=\"fadeInUpSmall\" href=\"#subject-offering-<%- outline.offering_cl_id %>\">\r\n <%- outline.display_name %>\r\n <\/a>\r\n <\/h3>\r\n \r\n <div class=\"show-hide-contents collapse\" id=\"subject-offering-<%- outline.offering_cl_id %>\">\r\n <h4>Overview<\/h4>\r\n <%= outline.overview %>\r\n \r\n <h4>Learning outcomes<\/h4>\r\n <p>On successful completion of this unit you will be able to:<\/p>\r\n <ul>\r\n <% _.each(outline.learning_outcomes, function(ulo){ %>\r\n <li>\r\n <%= ulo.description %>\r\n <\/li>\r\n <% }); %>\r\n <\/ul>\r\n \r\n <h4>Learning approaches<\/h4>\r\n <%= outline.learning_approaches %>\r\n \r\n <h4>Feedback on learning and assessment<\/h4>\r\n <%= outline.feedback_on_learning[0].description %>\r\n \r\n <h4>Assessment<\/h4>\r\n \r\n <%= outline.assessment_overview %>\r\n \r\n <% _.each(outline.assesment_tasks, function(task){ %>\r\n <h5>Assessment <%- task.number %>: <%- task.name %><\/h5>\r\n <p><%= task.description %><\/p>\r\n <% }) %>\r\n \r\n <\/div>\r\n<% } %>");
+
+    // munge breadcrumb
+    if(QUT.unit !== undefined && QUT.unit.details !== undefined && QUT.unit.details.code !== undefined){
+        $('.breadcrumb .breadcrumb__item--active').text('Unit - ' + QUT.unit.details.code);
+    }
+    
+    // load legacy outlines (multiple requests, html response, fairly fast)
+    $('[data-legacy-outline-url]').each(function(i, elem) {
+        var $done = $.Deferred();
+        var $elem = $(elem);
+        var $container = $($elem.prop('hash'));
+        var url = $elem.data('legacy-outline-url');
+        
+        // load into container (rendered by #863810)
+        $container.load(url, function(data){
+            console.log('loaded legacy outline', { data: data })
+            $done.resolve(data);
+        });
+        
+        $promises.push($done.promise());
+    });
+    
+    // load courseloop outlines (single request, json response, very slow uncached)
+    if(QUT.unit !== undefined && QUT.unit.details !== undefined && QUT.unit.details.years !== undefined){
+        $promises.push(
+            $.getJSON("https://www.qut.edu.au/study/unit/unit-sorcery/courseloop-subject-offerings?unitCode=CAB301&years=" + QUT.unit.details.years.join(','))
+                .promise()
+                .then(function(outlines) { 
+                    console.log('loaded courseloop outlines', { outlines: outlines })
+                    $.each(outlines, function(i, outline) {
+                        // render lodash template and append
+                        $outlines_container.append(t_courseloop_outline({ outline :outline }));
+                    })
+                    return outlines;
+                })
+        );
+        
+        // wait till everything is loaded, then reveal all outlines together
+        $.when.apply(null, $promises).then(function() {
+            console.log('all outlines loaded', Array.prototype.slice.call(arguments));
+            $('.pace-container').remove();
+            $('.unit-outlines-loading').remove();
+            $('.unit-outlines-container').addClass('in');
+            
+            // since the courseloop show-hides are late to the party, re-trigger this
+            QUT.Content.setupShowHides();
+            
+            // aand this
+            QUT.Animation._bindAnimationTrigger();
+        });
+    } else {
+        $('.unit-outlines-loading p').text('Unable to load unit details.');
+    }
+
+});
+</script>        
+        
+        
+        
+    </div>
+    
+    <!--noindex-->
+    
+    <footer class="footer" role="contentinfo">
+    
+
+    
+    <div class="fatfooter">
+        <div class="fatfooter__tab__container container">
+            
+            <a href="https://www.qut.edu.au/study" class="fatfooter__tab fatfooter__tab--current" data-tab="study-footer">
+                Study
+            </a>
+            
+            <a href="https://www.qut.edu.au/research" class="fatfooter__tab  " data-tab="research-footer">
+                Research
+            </a>
+            <a href="https://www.qut.edu.au/engage" class="fatfooter__tab " data-tab="engage-footer">
+                Engage
+            </a>
+            
+            <a href="https://www.qut.edu.au/about" class="fatfooter__tab  " data-tab="about-footer">
+                About QUT
+            </a>
+        </div>
+        
+        <div class="fatfooter__content__wrapper">
+            <div class="fatfooter__contents__container container">
+                
+                <div id="study-footer" class="fatfooter__content row fatfooter__content--current">
+                    <div class="col-md">
+                        <ul class="fatfooter__linklist">
+                            <li><a href="https://www.qut.edu.au/study/undergraduate">Undergraduate study</a></li>
+                            <li><a href="https://www.qut.edu.au/study/postgraduate">Postgraduate study</a></li>
+                            <li><a href="https://www.qut.edu.au/study/research-degrees">PhDs and research degrees</a></li>
+                            <li><a href="https://www.qut.edu.au/study/short-courses-and-professional-education">Professional and executive education</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md">
+                        <ul class="fatfooter__linklist">
+                            <li><a href="https://www.qut.edu.au/study/international">International students</a></li>
+                            <li><a href="https://www.qut.edu.au/study/options/study-abroad-and-exchange">Study abroad and exchange</a></li>
+                            <li><a href="https://www.qut.edu.au/study/qut-college">QUT College</a></li>
+                            <li><a href="https://www.qut.edu.au/study/why-qut/graduate-success-stories">Graduate success</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md">
+                        <ul class="fatfooter__linklist">
+                            <li><a href="https://www.qut.edu.au/study/applying">Applying</a></li>
+                            <li><a href="https://www.qut.edu.au/study/fees-and-scholarships">Fees</a></li>
+                            <li><a href="https://www.qut.edu.au/study/fees-and-scholarships/scholarships">Scholarships</a></li>
+                            <li><a href="https://www.qut.edu.au/about/key-dates-and-academic-calendar">Key dates</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="fatfooter__content__blurb hidden-md-down">
+                            Whatever you want to study, our range of courses will give you the hands-on learning, 
+                            industry connections and real-world perspective you’ll need to succeed.
+                        </div>
+                        <a href="https://www.qut.edu.au/study" class="arrow-link invert mt-md-2 mt-lg-0">Explore study at QUT</a>
+                    </div>
+                </div>
+                
+                <div id="research-footer" class="fatfooter__content row  ">
+                    <div class="col-md">
+                        <ul class="fatfooter__linklist">
+                            <li><a href="https://www.qut.edu.au/research/why-qut">Why QUT?</a></li>
+                            <li><a href="https://www.qut.edu.au/research/our-research">Our research</a></li>
+                            <li><a href="https://www.qut.edu.au/research/our-experts">Our experts</a></li>
+                            <li><a href="https://www.qut.edu.au/research/why-qut#World-class_facilities">World-class facilities</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md">
+                        <ul class="fatfooter__linklist">
+                            <li><a href="https://www.qut.edu.au/study/research-degrees">Study with us</a></li>
+                            <li><a href="https://www.qut.edu.au/research/study-with-us/how-to-apply">How to apply</a></li>
+                            <li><a href="https://www.qut.edu.au/research/study-with-us/master-of-philosophy">Master of philosophy</a></li>
+                            <li><a href="https://www.qut.edu.au/research/study-with-us/phd">PhD</a></li>
+                            <li><a href="https://www.qut.edu.au/research/study-with-us/professional-doctorate">Professional doctorate</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md">
+                        <ul class="fatfooter__linklist">
+                            <li><a href="https://www.qut.edu.au/research/partner-with-us">Partner with us</a></li>
+                            <li><a href="https://www.qut.edu.au/careers">Research jobs</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="fatfooter__content__blurb hidden-md-down">
+                            Join us at the forefront of research and development. Access 
+                            cutting-edge facilities and technology, work with world-renowned experts, and create real-world change.
+                        </div>
+                        <a href="https://www.qut.edu.au/research" class="arrow-link invert mt-md-2 mt-lg-0">Explore research at QUT</a>
+                    </div>
+                </div>
+                
+                <div id="engage-footer" class="fatfooter__content row ">
+                    <div class="col-md">
+                        <ul class="fatfooter__linklist">
+                            <li><a href="https://www.qut.edu.au/engage/industry-and-partnerships">Industry and partnerships</a></li>
+                            <li><a href="https://www.qut.edu.au/engage/industry-and-partnerships/work-with-students">Work with our students</a></li>
+                            <li><a href="https://www.qut.edu.au/engage/industry-and-partnerships/expertise-for-industry">Expertise for industry</a></li>
+                            <li><a href="https://www.qut.edu.au/study/short-courses-and-professional-education">Executive education</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md">
+                        <ul class="fatfooter__linklist">
+                            <li><a href="./?a=883644">Give to QUT</a></li>
+                            <li><a href="https://www.qut.edu.au/engage/giving/support-students">Make a real impact</a></li>
+                            <li><a href="https://www.qut.edu.au/engage/giving/ways-to-give">Ways to give</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md">
+                        <ul class="fatfooter__linklist">
+                            <li><a href="https://www.qut.edu.au/engage/alumni">Alumni</a></li>
+                            <li><a href="https://www.qut.edu.au/engage/alumni/benefits">Alumni benefits</a></li>
+                            <li><a class="footer-secure invert" href="https://giving.qut.edu.au/s/alumni/my-details">Update alumni details</a></li>
+                            <li><a href="https://www.qut.edu.au/engage/alumni/tools-and-resources">Alumni tools and resources</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="fatfooter__content__blurb hidden-md-down">
+                            Connect with us and see how we can support you. We invite industry partners, 
+                            alumni and our valued donors to join the vibrant, exciting QUT community.
+                        </div>
+                        <a href="https://www.qut.edu.au/engage" class="arrow-link invert mt-md-2 mt-lg-0">Explore ways to engage with QUT</a>
+                    </div>
+                </div>
+                
+                <div id="about-footer" class="fatfooter__content row  ">
+                    <div class="col-md">
+                        <ul class="fatfooter__linklist">
+                            <li><a href="https://www.qut.edu.au/about/our-university">Our university</a></li>
+                            <li><a href="https://www.qut.edu.au/about/our-people">Our people</a></li>
+                            <li><a href="https://www.qut.edu.au/about/achievements-and-recognition">Achievements and recognition</a></li>
+                            <li><a href="https://www.qut.edu.au/about/campuses-and-facilities">Campuses and venues</a></li>
+                            
+                        </ul>
+                    </div>
+                    
+                    <div class="col-md">
+                        <ul class="fatfooter__linklist">
+                            <li><a href="https://www.qut.edu.au/news">News</a></li>
+                            <li><a href="https://www.qut.edu.au/events">Events</a></li>
+                            <li><a href="https://www.qut.edu.au/careers">Jobs</a></li>
+                            <li><a href="https://www.library.qut.edu.au/">Library</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="fatfooter__content__blurb hidden-md-down">
+                            Learn what makes Queensland University of Technology (QUT) the university for the real world. Read about our goals for future growth, achievements and success, and the organisational structures that support us.
+                        </div>
+                        <a href="https://www.qut.edu.au/about" class="arrow-link invert mt-md-2 mt-lg-0">Explore QUT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div> 
+    
+    <div class="commonfooter">
+        <div class="commonfooter__catchall__wrapper" style="background-image: url(https://www.qut.edu.au/__data/assets/image/0011/1191485/qut-country.jpg); background-size: cover; background-position: top center;">
+            <div class="container">
+                <div class="commonfooter__catchall row">
+                    <div class="col-sm-12 col-md-8 col-lg-6 col-xl-5" style="display: flex;">
+                        <a style="background-color: rgba(0, 30, 54, 0.75); font-size: 1.3em; font-weight: bold; line-height: 1.1em; margin: 3rem 1rem; padding: 1rem;" href="https://www.qut.edu.au/about/indigenous">QUT acknowledges the Traditional Owners of the lands where QUT now stands.</a>
+                    </div>
+                </div>
+            </div>
+        </div>          
+        <div class="commonfooter__catchall__wrapper">
+            <div class="container">
+                <div class="commonfooter__catchall row">
+                    <div class="col-lg-3 col-md-12 col-sm-12 mb-sm-2 mb-3 my-md-1">
+                        <ul class="commonfooter__separatedlist text-md-center">
+                            <li><a href="https://secure.qut.edu.au/login/" class="secure inline invert">Login</a></li>
+                            <li><a href="https://www.qut.edu.au/additional">Legal</a></li>
+                            <li><a href="https://www.qut.edu.au/additional/privacy">Privacy</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="commonfooter__socialmedia col-md-7 offset-md-1 col-lg">
+                        <ul class="commonfooter__socialmedia__list" itemscope="" itemtype="http://schema.org/Organization">
+                            <link itemprop="url" href="https://www.qut.edu.au">
+                            <li class="facebook"><a itemprop="sameAs" href="https://www.facebook.com/QUTBrisbane"><span class="sr-only">QUT on Facebook</span></a></li>
+                            <li class="instagram"><a itemprop="sameAs" href="https://instagram.com/qutrealworld/"><span class="sr-only">QUT on Instagram</span></a></li>
+                            <li class="youtube"><a itemprop="sameAs" href="https://www.youtube.com/user/TheQUTube"><span class="sr-only">The QUTube</span></a></li>
+                            <li class="linkedin"><a itemprop="sameAs" href="https://www.linkedin.com/company/165624"><span class="sr-only">QUT on LinkedIn</span></a></li>
+                            <li class="tiktok"><a itemprop="sameAs" href="https://www.tiktok.com/@qutrealworld"><span class="sr-only">QUT on TikTok</span></a></li>
+                        </ul>
+                        <a href="https://www.qut.edu.au/about/social-media" class="commonfooter__socialmedia__link mt-sm-1 mt-md-0 mb-sm-2 mb-md-0 mb-3">Our social media</a>
+                    </div>
+                    <div class="commonfooter__contact col-lg-3 col-md-4 col-sm-12 col-xs-12 md-p-0 m-0 text-xs-center">
+                        <a href="https://www.qut.edu.au/about/contact" class="commonfooter__contact__button commonfooter__socialmedia__contactbutton mb-0 button blue button--white-hover">Contact QUT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="commonfooter__info__wrapper">
+            <div class="container">        
+                <div class="commonfooter__info row">
+                    <div class="col-xs-12 mt-1 mt-lg-0 text-xs-center">
+                        <ul class="commonfooter__separatedlist">
+                            <li><abbr title="Tertiary Education Quality and Standards Agency">TEQSA</abbr> Provider ID: <a href="https://www.teqsa.gov.au/national-register/provider/queensland-university-technology">PRV12079</a> (Australian University)</li>
+                            <li><abbr title="Commonwealth Register of Institutions and Courses for Overseas Students">CRICOS</abbr> No. <a href="https://cricos.education.gov.au/Institution/InstitutionDetails.aspx?ProviderCode=00213J">00213J</a></li>
+                            <li><abbr title="Australian Business Number">ABN: </abbr> <a href="https://abr.business.gov.au/ABN/View?abn=83791724622">83 791 724 622</a></li>
+                            <li>Page updated: 22 September 2023</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    function toggleFatFooterTab(e) {
+        if ($('.fatfooter__content__wrapper').is(':visible')) {
+            e.preventDefault();
+            
+            if (!$(this).hasClass('fatfooter__tab--current')) {
+                $(".fatfooter__tab--current, .fatfooter__content--current").removeClass('fatfooter__tab--current fatfooter__content--current');
+                $(this).addClass('fatfooter__tab--current');
+                $('#' + $(this).data('tab')).addClass('fatfooter__content--current');
+            }
+        }
+    }
+
+    $(function() {
+        $(".fatfooter__tab").click(function(e) {
+            toggleFatFooterTab.call(this, e);
+        })
+    });
+</script>    
+    <!--endnoindex-->
+
+    
+    
+
+<!--  -->
+
+
+    
+    
+    
+    
+
+
+
+    
+
+
+
+<div id="modal_1744250815067" class="micromodal" aria-hidden="true" inert=""><div class="micromodal__overlay panel-white"> <div class="micromodal__container my-2 my-md-0" role="dialog" aria-modal="false" aria-labelledby="modal-1-title">  <div class="micromodal__content centered-content-panel" id="modal_1744250815067-content" tabindex="-1"><!-- Modal content --><div id="timely-pre-form-qut2" data-modal-colour="panel-white">
+    
+        <link rel="stylesheet" href="https://www.qut.edu.au/__data/assets/css_file/0006/1303809/bookable_appointments_css_overrides.css">
+<script src="https://professional-education.qut.edu.au/study/lightning/lightning.out.js"></script>
+<script>
+function runForm(){
+    $("#lexcontainer").html("");
+    var spinner = new Spinner({ 'color' : '#0066b9' }).spin();
+    $("#lexcontainer").append(spinner.el);
+    $Lightning.use("runtime_appointmentbooking:lightningOutGuest",
+        function() {                  // Callback once framework and app load
+            $Lightning.createComponent(
+                "lightning:flow",    // top-level component of your app
+                { },    // attributes to set on the component when created
+                "lexcontainer",    // the DOM location to insert the component
+                function(component) {            // API name of the Flow
+                    component.startFlow("Bookable_Appointment_Web");
+                    $("#lexcontainer .spinner").remove();
+                }
+            );
+            $(".slds-required").parent().append('<b class="sq-form-required-field-text" title="required" aria-hidden="true">(required)</b>');
+            
+        },    'https://professional-education.qut.edu.au/study' // Site endpoint
+    );
+}
+</script>
+
+<div class="full-panel panel-thin-py">
+    <div class="container">
+        <div id="lexcontainer"></div>
+    </div>
+</div>
+<div id="auraErrorMessage" style="display: none"></div>
+    
+        
+    
+</div></div><button class="micromodal__close" aria-label="Close modal" data-modal-close=""></button></div></div></div><style type="text/css">/*[inert]*/[inert]{position:relative!important;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;pointer-events:none}[inert]::before{content:'';display:block;position:absolute;top:0;left:0;right:0;bottom:0}</style></body></html>
